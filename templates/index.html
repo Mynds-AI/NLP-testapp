@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyndsAI NLP test</title>
+</head>
+<body>
+    <h1>MyndsAI NLP test</h1>
+
+    <input type="text" size="50" id="string"></br>
+    <input type="button" id="submit-input" value="Submit">
+
+    <div id="response">
+
+    </div>
+
+</body>
+<script>
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    document.getElementById("submit-input").onclick = function(){
+
+        var submitString = document.getElementById("string").value;
+
+        var responseDiv = document.getElementById('response');
+
+        var raw = JSON.stringify({
+          "entityString": submitString
+        });
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+
+        fetch("/getcat", requestOptions)
+        .then(response => response.text())
+        .then(result => responseDiv.innerHTML +=  result + '</br>')
+        .catch(error => console.log('error', error));
+    }
+
+</script>
+</html>

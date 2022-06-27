@@ -1,0 +1,17 @@
+textID,text,information_about
+f87dea47db,Nálatok lehet kapni rózsamacit?,information
+96d74cb729,Szeretnék egy arany színű ajándékot.,order
+eee518ae67,A barátnőmnek szeretnék valamit.,order
+01082688c6,Karácsonyra vennék valamit.,order
+33987a8ee5,Mi az a rosebear?,information
+726e501993,Egy örökrózsa csokrot szeretnék rendelni.,order
+261932614e,Kék színben szeretnék vásárolni egy rózsamacit.,order
+afa11da83f,Milyen férfi ajándékok vannak nálatok?,information
+726e501994,Házassági évfordulónkra szeretnék venni valamit.,order
+726e501995,Szabad-e innen rendelnem?,information
+726e501996,"“Hibás terméket kaptam, vissza tudom küldeni?”",complaint
+726e501997,Mit tegyek a hibásan küldött termékemmel?,complaint
+726e501998,"“Nem tetszik a csokor, amit kaptam. Szeretném, ha visszavásárolnák.”",complaint
+726e501999,"Rendeltem egy rózsamacit, de szeretném módosítani a rendelésem.",order_modification
+726e502000,A szállításí címemet rosszul adtam meg. Szeretném megváltoztatni.,order_modification
+726e502001,"Egy csokor rózsát rendeltem tőletek, de helyette inkább egy örökrózsa csokrot küldjetek.",order_modification

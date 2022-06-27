@@ -1,0 +1,10 @@
+{
+  "labels":[
+    "information",
+    "order",
+    "order_modification",
+    "complaint"
+  ],
+  "threshold":0.5,
+  "positive_label":null
+}
