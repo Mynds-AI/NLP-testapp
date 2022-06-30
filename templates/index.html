@@ -5,15 +5,12 @@
     <title>MyndsAI NLP test</title>
 </head>
 <body>
-    <h1>MyndsAI NLP test</h1>
+    <h1 style="margin-left: 10px;">MyndsAI NLP test</h1>
 
-    <input type="text" size="50" id="string"></br>
-    <input type="button" id="submit-input" value="Submit">
+    <input type="text" size="50" id="string" style="margin: 10px;"></br>
+    <input type="button" id="submit-input" value="Submit" style="margin: 10px;">
 
-    <div id="response">
-
-    </div>
-
+    <div id="response" style="margin: 10px;"></div>
 </body>
 <script>
     var myHeaders = new Headers();
@@ -38,7 +35,17 @@
 
         fetch("/getcat", requestOptions)
         .then(response => response.text())
-        .then(result => responseDiv.innerHTML +=  result + '</br>')
+        .then(result => {
+            var data = "";
+            for (let i = 0; i < JSON.parse(result).primary_intent.other_intent.length; i++) {
+               data += "név: " + JSON.parse(result).primary_intent.other_intent[i].name + " érték: " + JSON.parse(result).primary_intent.other_intent[i].percentage + '</br>';
+            }
+            responseDiv.innerHTML += 'Értékelt mondat: ' +  document.getElementById("string").value + '</br>' +
+                'Elsődleges szándék: ' + JSON.stringify(JSON.parse(result).primary_intent.intent.intent_name) + ', ' + JSON.stringify(JSON.parse(result).primary_intent.intent.intent_percentage) + '</br>' +
+                'Többi szándék : '+ '</br>' + data +
+                'Paraméter név: ' + JSON.parse(result).param_name + '</br>' +
+                'Paraméter érték: ' + JSON.parse(result).param_value + '</br>' + '</br>'
+            })
         .catch(error => console.log('error', error));
     }
 

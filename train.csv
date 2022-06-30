@@ -1,134 +1,123 @@
-textID,text,selected_text,information_about
-a9d499e222,"“Évfordulónkra rendeltem térképet, amin el lett írva a barátom neve, úgyhogy szeretném, ha küldenétek egy másikat.”",el lett írva,complaint
-a9d499e223,"“A kiszállított térkép üvege össze van karcolva, szeretném, ha küldenének helyette másikat.”",össze van karcolva,complaint
-a9d499e224,"“Elképzelhető, hogy a szállítás során a közös kézszobraink megrongálódtak, kicsomagolásnál már az ujjak hiányoztak. Remélem tudnak küldeni másikat”",megrongálódtak,complaint
-a9d499e225,"“Karácsonyra családi kézszobor szettet rendeltem, de páros szettet kaptam. Szeretném, ha küldenének egy családit.”","“rendeltem, de”",complaint
-a9d499e226,"“Ezek a rózsamacik elég rossz minőségűek, ilyet a feleségemnek nem adnék át, csak remélni tudom, hogy van más terméketek, ami nem ilyen silány, szeretném kicserélni a 2 szívpárnára”",rossz minőségű,complaint
-a9d499e227,"“Megkaptuk a térképet, de nem tetszik. Azt olvastam, hogy van rá lehetőség, hogy a terméket kicserélik. Küldjetek ezért a 7 ezer forintért bármit, ami népszerű nálatok”",nem tetszik,complaint
-a9d499e228,"“Anyák napjára rendeltem egy rózsaszín rózsamacit, de nem érkezett meg, úgyhogy szeretném a pénz visszakapni.”",nem érkezett meg,complaint
-a9d499e229,"“Ezek a kézszobrok ocsmányak. Karácsonyra rendeltük, de ha lehetséges, akkor vigyétek vissza és utaljátok vissza az árát”",vigyétek vissza,complaint
-a9d499e230,"“Diszcsomagolással kiszállítottak valamit a feleségemnek, ami első sorban nem egy örökrózsacsokor volt, amit rendeltem, másodszor pedig a csomagolás meg volt nyomódva.”",meg volt nyomódva,complaint
-a9d499e231,"“Hibás terméket kaptam, mit tehetek?”",hibás terméket kaptam,complaint
-a9d499e232,Mit tegyek a hibásan kapott termékemmel?,hibásan kapott,complaint
-a9d499e236,"“Nem jött meg a rózsamaci, amit rendeltem.”",Nem jött meg,complaint
-a9d499e237,"“Nem egy szál rózsára, hanem egy egész csokor piros rózsára van szükségem.”","“Nem egy szál rózsára, hanem egy egész csokor piros rózsára van szükségem.”",complaint
-a9d499e238,"“Szállítás közben elszakadt a kék rózsamaci, amit rendeltem. Nem is értem. Tudtok másikat küldeni? A megrendelés számra nem emlékszek.”",elszakadt,complaint
-a9d499e241,"“15 db rózsamacit rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?”",kevesebbet kaptam,complaint
-a9d499e242,"“2 db kézszobrot rendeltem a barátom névnapjára, rajta a nevével, de nem az ő neve szerepel rajta. Kifizettem a termékeket és sajnos utána vettem észre. Küldenének helyette másik terméket Mihály Laci névvel?”",Küldenének helyette,complaint
-a9d499e342,15 db hímzett törölközőt rendeltem és 1 nem rózsaszín. Kérem cseréljék ki a tévesen küldöttet.,Kérem cseréljék ki,complaint
-a9d499e250,"“15 db hímzett törölközőt rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?”",kevesebbet kaptam,complaint
-a9d499e255,"“1db kerti törpét kaptam a 3 db helyett, de ki kellett fizetnem. Kérem vissza a pénzem.”",Kérem vissza a pénzem.,complaint
-a9d499e256,1db kerti törpét kaptam a 3 db helyett és nem jó a mérete sem.,nem jó a mérete,complaint
-a9d499e257,"1db kerti törpét kaptam a 3 db helyett, eltört szállításnál, de ki kellett fizetnem. Kérem vissza a pénzem.",Kérem vissza a pénzem.,complaint
-a9d499e258,Elmosódott felirattal kaptam meg a bögréket. Kérem vissza az árukat.,Kérem vissza az árukat.,complaint
-a9d499e123,Hol lehet elérni titeket?,Hol lehet elérni,information
-a9d499e124,Van boltotok vagy irodátok?,Van boltotok,information
-a9d499e125,Régóta működik már a webshop?,Régóta működik,information
-a9d499e126,Telefonon vagy személyesen is tudok beszélni veletek?,Telefonon vagy személyesen,information
-a9d499e127,Mit lehet tudni a rosebear-ről ?,Mit lehet tudni a rosebear-ről ?,information
-a9d499e128,Mit kell tudni a rosebear-ről ?,Mit kell tudni a rosebear-ről?,information
-a9d499e129,Ha írok nektek e-mailt milyen gyorsan válaszoltok?,írok nektek e-mailt,information
-a9d499e130,Mi az a rosebear?,Mi az a rosebear?,information
-a9d499e131,Mire való ez a webáruház?,Mire való ez a webáruház?,information
-a9d499e132,Mitől jó a rosebearhungary?,Mitől jó a rosebearhungary?,information
-a9d499e133,Mire jók ezek a rosebear izék,Mire jók ezek,information
-a9d499e134,Mióta van ez a márka?,Mióta van ez a márka?,information
-a9d499e135,Kié ez a brand?,Kié ez a brand?,information
-a9d499e136,Ki alapította a rosebeart?,Ki alapította a rosebeart?,information
-a9d499e137,Miért rendeljek a roszebearhungary-tól?,Miért rendeljek a roszebearhungary-tól?,information
-a9d499e138,Tetszenek a termékek de nem tudom szabad-e innen rendelnem győzzenek meg !,szabad-e innen rendelnem,information
-a9d499e139,Kun Béla vagyok múlt héten rendeltem egy nagy virágboxot.,rendeltem,information
-a9d499e140,Kék színben van ilyen?,kék színben,information
-a9d499e141,Mennyi a kicsi rózsamaci kiszállítási ideje?,kiszállítási ideje,information
-a9d499e142,Azt hallottam hogy létezik nálatok női férfi feliratos ágynemű szett,feliratos ágynemű szett,information
-a9d499e143,Csoda ez az arany maci.,arany maci,information
-a9d499e144,Van olyan hogy örökrózsa?,örökrózsa,information
-a9d499e145,A párom barátnője kapott egy rózsamacit. ,kapott,information
-a9d499e146,Mikor kaphatom meg az ajándékkosarat?,Mikor kaphatom meg,information
-a9d499e147,Mennyi a kicsi rózsamaci kiszállítási ideje?,kiszállítási ideje,information
-a9d499e148,Nagyon tetszik az arany kézszobor.,kézszobor,information
-a9d499e149,Megérkezik egy héten belül a rózsamaci ha ma megrendelem?,Megérkezik,information
-a9d499e150,A barátom valahol látott kézszobrot.,látott,information
-a9d499e151,Ki tudnak szállítani egy nagy rózsamacit 2 munkanapon belül?,Ki tudnak szállítani,information
-a9d499e152,Tudnak addigra küldeni egy arany virágboxot?,Tudnak addigra küldeni ,information
-a9d499e153,Milyen árban vannak férfi ajándékok nálatok?,Milyen árban vannak,information
-a9d499e154,A weboldalatokon láttam egy órási rózsamacit.,láttam,information
-a9d499e155,"Érdeklődnék, hogy lehet-e kapni Önöknél születésnapi tortát?","Érdeklődnék, hogy lehet-e kapni Önöknél",information
-a9d499e156,Mennyi ideig tart a kiszállítás? ,Mennyi ideig tart a kiszállítás? ,information
-a9d499e157,Drágábbak a termékek az interneten?,Drágábbak a termékek az interneten?,information
-a9d499e158,"Mi történik, ha az általunk kiválasztott termék nincs raktáron?",általunk kiválasztott termék nincs raktáron,information
-a9d499e159,Mennyibe kerül ez az örökrózsa? ,Mennyibe kerül ,information
-a9d499e160,Van ebből a termékből raktáron? ,Van ebből a termékből raktáron? ,information
-a9d499e161,Kaphatok visszatérítést? ,visszatérítést,information
-a9d499e233,Általában mennyi idő alatt kapom meg a rendelésem?,mennyi idő alatt,information
-a9d499e234,Milyen gyorsan kézbesítik a csomagot?,Milyen gyorsan kézbesítik a csomagot?,information
-a9d499e235,Mi a várható kiszállítási idő?,Mi a várható kiszállítási idő?,information
-a9d499e246,"“Nekem a rózsaszínt napelemes lampion tetszik. Kérhetném, hogy a szettben csak rózsaszín napelemes lampion legyen? Köszönöm!”","Kérhetném, hogy",information
-a9d499e252,Lehet szálanként is vásárolni vörös rózsát?,Lehet szálanként,information
-a9d499e162,A párom barátnője kapott egy rózsamacit.,kapott,order
-a9d499e163,A barátom valahol látott kézszobrot.,valahol látott,order
-a9d499e164,A barátnőm szeretne egy fekete rózsacsokrot díszdobozban.,szeretne,order
-a9d499e165,A feleségemmel a nászutunkon Balin voltunk.,voltunk,order
-a9d499e166,Szeretnék a feleségemnek egy romantikus kézszobrot.,Szeretnék,order
-a9d499e167,Milyen árban vannak férfi ajándékok nálatok?,Milyen árban,order
-a9d499e168,Éles szemű barátnőm látta ezt a fokozott érdeklődést.,látta ezt,order
-a9d499e169,Végül a barátnőm rajongása győzött meg arról.,győzött meg,order
-a9d499e170,Készíttetnék egy pólót a férjemnek,Készíttetnék,order
-a9d499e171,mert a feleségemnek is így készült a ruha.,készült,order
-a9d499e172,A tizedik házassági évfordulóra tudtok Bali térképet csinálni a mi nevünkkel?,tudtok csinálni,order
-a9d499e173,Karácsonyra vennék valamit a barátomnak.,vennék valamit,order
-a9d499e174,A héten lesz a házassági évfordulónk.,héten lesz,order
-a9d499e175,Holnap lesz a házassági évfordulónk.,holnap lesz,order
-a9d499e176,Venni szeretnék valami szépet a barátnőm születésnapjára.,Venni szeretnék valami,order
-a9d499e177,Szülinapi ajándékot keresek a páromnak.,keresek,order
-a9d499e178,Így tökéletes ajándék lehet szülinapra vagy névnapra.,ajándék lehet,order
-a9d499e179,Éppen Jázmin szülinapját ünnepeljük.,szülinapját ünnepeljük,order
-a9d499e180,Kisfiam születésnapi előtortájaként készült ez a torta,születésnapi,order
-a9d499e181,Így március végén egy hétvégét szoktunk kiválasztani ünneplésre mivel összejön kisfiam és férjem névnapja és az én szülinapom,névnapja és az én szülinapom,order
-a9d499e182,"Mostanában érkezett több megrendelés felnőttek gyermekkori rajzának elkészítésére, kerek számú szülinapokra, nászajándékba.",megrendelés,order
-a9d499e183,Szeretném elkészíttetni babámnak első születésnapjára ezt a párnát.,Szeretném elkészíttetni,order
-a9d499e184,Fekete erdő tortát szeretnék rendelni nagyapám 73. szülinapjára.,szeretnék rendelni,order
-a9d499e185,Tegnap volt a házassági évfordulónk.,volt házassági évfordulónk,order
-a9d499e186,Ma van a házassági évfordulónk.,van házassági évfordulónk,order
-a9d499e187,Holnap lesz a házassági évfordulónk.,lesz házassági évfordulónk,order
-a9d499e188,Tökéletes karácsonyi ajándék lehet.,karácsonyi ajándék lehet,order
-a9d499e189,Ki tudnak szállítani egy nagy rózsamacit 2 munkanapon belül?,Ki tudnak szállítani,order
-a9d499e190,Tudnak addigra küldeni egy arany virágboxot?,Tudnak addigra küldeni,order
-a9d499e191,Tudnak küldeni egy virágcsokrot?,Tudnak küldeni,order
-a9d499e192,Nagyon tetszik neki ő is szeretne egy nagy arany színt.,szeretne,order
-a9d499e193,Nagyon tetszik az arany kézszobor.,Nagyon tetszik,order
-a9d499e194,Szeretnék a feleségemnek egy romantikus kézszobrot.,Szeretnék,order
-a9d499e195,A barátnőm szeretne egy fekete rózsacsokrot díszdobozban.,szeretne,order
-a9d499e196,Vennék egy kis virágcsokrot,Vennék,order
-a9d499e197,Valami virágcsokrot szeretnék Valentin-napra ,szeretnék,order
-a9d499e198,Kérek egy rózsamacit kiszállítva.,Kérek,order
-a9d499e199,Szeretnék a nővéremnek / férjemnek / feleségemnek emléktárgyat venni. ,Szeretnék,order
-a9d499e200,Úgy gondoltam egy csokor rózsa szép lenne.,lenne,order
-a9d499e201,"“Az évfordulóra szeretnék rendelni egy Róma térképet a nevünkkel, szépen becsomagolva, hogy már csak át kelljen adnom.”",szeretnék rendelni,order
-a9d499e202,"“Rendelek egy nagy arany rózsamacit. Érkezhet már eleve díszcsomagolásban, megcímzett kártyával.”",Rendelek,order
-a9d499e203,"“Küldjetek egy arany rózsa csokrot diszcsomagolásban, megcímzett ajándékkártyával.“",Küldjetek,order
-a9d499e204,"“Rendelni szeretnék egy szál piros örökrózsát piros szívvel, Pétertől Katinak címzett kártyával.”",Rendelni szeretnék,order
-a9d499e205,"“Holnapután Valentin nap. Kérlek, küldjetek bármi rózsaszín ajándékot a barátnőmnek 10-15 ezer forint körül.”","“Kérlek, küldjetek”",order
-a9d499e206,"“Sziasztok! A weboldalon láttam, és szeretnék rendelni a feleségemnek -egy vörös rózsacsokrot.”",szeretnék rendelni,order
-a9d499e207,"“Tetszik ez a rózsacsokor, anyámnak szeretnék küldeni anyák napjára.“",szeretnék küldeni,order
-a9d499e208,"“Üdvözletem, szeretném megváltoztatni az édesanyámnak szánt rózsának a címét, az új cím legyen Székesfehérvár, toronysor 5.”",szeretném megváltoztatni,order_modification
-a9d499e209,"“Azt hiszem a rendelésem kiszállításánál nem leszek otthon. Szeretném, ha a következő címre szállítanátok: 1111 Budapest Zenta utca 5.”",nem leszek otthon,order_modification
-a9d499e210,Ha megoldható akkor a címet módosítanám 1112 Budapest Kérő utca 90. ,módosítanám,order_modification
-a9d499e211,Szeretném megváltoztatni a szállítási címet.,szeretném megváltoztatni,order_modification
-a9d499e212,"“A rendelés leadása után vettem észre, hogy véletlenül kétszer tettem a kosárba az ágyneműt, úgyhogy az egyik megrendelést szeretném törölni.“",szeretném törölni,order_modification
-a9d499e213,"“Szeretném megváltoztatni a rendelesémet, melyben egy személyes térkép volt és egy nagy rózsacsokor. Ha megoldható kettő nagy rózsacsokorra és 1 térképre változtatnám”",Szeretném megváltoztatni,order_modification
-a9d499e214,"“Úgy tűnik valamiért 4 szál örökrózsát adtam le rendelésbe, de nekem csak kettő kellene. Nagyon örülnék, ha megváltoztatható lenne kettő darabra.”",megváltoztatható,order_modification
-a9d499e215,"“A visszaigazolás szerint holnap szállítja ki a futár a megrendelt szív párnát, de nem fogom tudni átvenni. Megoldható lenne, hogy egy nappal később legyen kiszállítva?”",nem fogom tudni átvenni,order_modification
-a9d499e216,"“Rendeltem a feleségemnek 1 szupernagy kék rózsamacit díszcsomagolással 7 napos szállítási idővel, szeretném módosítani a kiszállítást 3 nappal későbbre”",szeretném módosítani,order_modification
-a9d499e217,"“Tegnap rendeltem egy zöld nagy méretű rózsamacit, viszont praktikusabb lenne, ha a közepes méretűből vennék rózsaszínt. Örülnék, ha módosítani tudnátok a rendelésemet.” ",módosítani,order_modification
-a9d499e218,"“Volt egy 9 ezer forintos rendelésem a weboldalon, melyben egy közepes méretű vörös rózsacsokor volt, örülnék, ha helyette egy nagy méretű vörös rózsacsokrot készítenétek 14 ezerért.”",helyette,order_modification
-a9d499e219,"“Holnapi nap az átvetelnél nekem kéne otthon lennem, de nem később érek haza, ezért szeretném, ha a feleségemnek adnák át a kézszobrokat”",később érek haza,order_modification
-a9d499e220,"“Sajnos a rendelésemet nem tudom átvenni a kiszállítási napon. A fiamnak szóltam, hogy vegye át. Az elérhetőségét csatolom”",nem tudom átvenni,order_modification
-a9d499e221,"“Amennyiben nem jelent problémát az eredeti rendelésemet, melyben egy szívpárna szerepel, szeretném, ha a jegyesemnek adnátok át egy üdvözlő üzenettel”",nem jelent problémát,order_modification
-a9d499e239,"“A mai napon, 06.01-jén rendeltem ebből a werbshopból Pető Szilvia néven, 138359-es rendelésszámmal. Szeretnék a rendelésemhez még 1 db rózsaszín  rózsamacit adni. Kérhetem, a rendelésem módosítását?”",Szeretnék a rendelésemhez,order_modification
-a9d499e240,"“Szeretnék változtatni a szállítási címen. Reggel kaptam egy e-mailt, hogy ma érkezik a csomag a webshopból, de sajnos ma mégsem tudok otthon lenni. A munkahelyemen tudom átvenni. Kérhetem, a rendelésem módosítását?”",Szeretnék változtatni,order_modification
-a9d499e243,"“Rendeltem egy rózsamacit, de a színe mégsem tetszik. Szeretném, ha kicserélnétek fehér színűre piros helyett!”","Szeretném, ha kicserélnétek",order_modification
-a9d499e244,"“10 közepes rózsamacit rendeltem, de mégis a nagyobb tetszik. Kérhetném a rendelésem módosítását? Köszönöm!”",Kérhetném a rendelésem módosítását?,order_modification
-a9d499e245,"“3 db páros ágyneműt rendeltem , de szeretném kicserélni az egyiket egy romantikus kézszoborra. Kérhetném a rendelésem módosítását? Köszönöm!”",szeretném kicserélni,order_modification
-a9d499e248,"“Ma rendeltem ebből a werbshopból Pető Szilvia néven, 4570065 relésszámmal.  Szeretnék a szállítási időn változtatni jövőhét szerdára. Kérhetem, a rendelésem módosítását?”",Szeretnék a szállítási időn változtatni,order_modification
-a9d499e249,"“Szeretnék változtatni a szállítási címen. Reggel kaptam egy e-mailt, hogy ma érkezik a csomag a webshopból, de sajnos ma mégsem tudok otthon lenni. A munkahelyemen tudom átvenni. Kérhetem, a rendelésem módosítását?”",Szeretnék változtatni a szállítási címen.,order_modification
+textID,text,information_about
+a9d499e222,"“Évfordulónkra rendeltem térképet, amin el lett írva a barátom neve, úgyhogy szeretném, ha küldenétek egy másikat.”",complaint
+a9d499e223,"“A kiszállított térkép üvege össze van karcolva, szeretném, ha küldenének helyette másikat.”",complaint
+a9d499e224,"“Elképzelhető, hogy a szállítás során a közös kézszobraink megrongálódtak, kicsomagolásnál már az ujjak hiányoztak. Remélem tudnak küldeni másikat”",complaint
+a9d499e225,"“Karácsonyra családi kézszobor szettet rendeltem, de páros szettet kaptam. Szeretném, ha küldenének egy családit.”",complaint
+a9d499e226,"“Ezek a rózsamacik elég rossz minőségűek, ilyet a feleségemnek nem adnék át, csak remélni tudom, hogy van más terméketek, ami nem ilyen silány, szeretném kicserélni a 2 szívpárnára”",complaint
+a9d499e227,"“Megkaptuk a térképet, de nem tetszik. Azt olvastam, hogy van rá lehetőség, hogy a terméket kicserélik. Küldjetek ezért a 7 ezer forintért bármit, ami népszerű nálatok”",complaint
+a9d499e228,"“Anyák napjára rendeltem egy rózsaszín rózsamacit, de nem érkezett meg, úgyhogy szeretném a pénz visszakapni.”",complaint
+a9d499e229,"“Ezek a kézszobrok ocsmányak. Karácsonyra rendeltük, de ha lehetséges, akkor vigyétek vissza és utaljátok vissza az árát”",complaint
+a9d499e230,"“Diszcsomagolással kiszállítottak valamit a feleségemnek, ami első sorban nem egy örökrózsacsokor volt, amit rendeltem, másodszor pedig a csomagolás meg volt nyomódva.”",complaint
+a9d499e231,"“Hibás terméket kaptam, mit tehetek?”",complaint
+a9d499e232,Mit tegyek a hibásan kapott termékemmel?,complaint
+a9d499e236,"“Nem jött meg a rózsamaci, amit rendeltem.”",complaint
+a9d499e237,"“Nem egy szál rózsára, hanem egy egész csokor piros rózsára van szükségem.”",complaint
+a9d499e238,"“Szállítás közben elszakadt a kék rózsamaci, amit rendeltem. Nem is értem. Tudtok másikat küldeni? A megrendelés számra nem emlékszek.”",complaint
+a9d499e241,"“15 db rózsamacit rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?”",complaint
+a9d499e242,"“2 db kézszobrot rendeltem a barátom névnapjára, rajta a nevével, de nem az ő neve szerepel rajta. Kifizettem a termékeket és sajnos utána vettem észre. Küldenének helyette másik terméket Mihály Laci névvel?”",complaint
+a9d499e342,15 db hímzett törölközőt rendeltem és 1 nem rózsaszín. Kérem cseréljék ki a tévesen küldöttet.,complaint
+a9d499e250,"“15 db hímzett törölközőt rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?”",complaint
+a9d499e255,"“1db kerti törpét kaptam a 3 db helyett, de ki kellett fizetnem. Kérem vissza a pénzem.”",complaint
+a9d499e256,1db kerti törpét kaptam a 3 db helyett és nem jó a mérete sem.,complaint
+a9d499e257,"1db kerti törpét kaptam a 3 db helyett, eltört szállításnál, de ki kellett fizetnem. Kérem vissza a pénzem.",complaint
+a9d499e258,Elmosódott felirattal kaptam meg a bögréket. Kérem vissza az árukat.,complaint
+a9d499e123,Hol lehet elérni titeket?,information
+a9d499e124,Van boltotok vagy irodátok?,information
+a9d499e125,Régóta működik már a webshop?,information
+a9d499e126,Telefonon vagy személyesen is tudok beszélni veletek?,information
+a9d499e127,Mit lehet tudni a rosebear-ről ?,information
+a9d499e128,Mit kell tudni a rosebear-ről ?,information
+a9d499e129,Ha írok nektek e-mailt milyen gyorsan válaszoltok?,information
+a9d499e130,Mi az a rosebear?,information
+a9d499e131,Mire való ez a webáruház?,information
+a9d499e132,Mitől jó a rosebearhungary?,information
+a9d499e133,Mire jók ezek a rosebear izék,information
+a9d499e134,Mióta van ez a márka?,information
+a9d499e135,Kié ez a brand?,information
+a9d499e136,Ki alapította a rosebeart?,information
+a9d499e137,Miért rendeljek a roszebearhungary-tól?,information
+a9d499e138,Tetszenek a termékek de nem tudom szabad-e innen rendelnem győzzenek meg !,information
+a9d499e139,Kun Béla vagyok múlt héten rendeltem egy nagy virágboxot.,information
+a9d499e140,Kék színben van ilyen?,information
+a9d499e141,Mennyi a kicsi rózsamaci kiszállítási ideje?,information
+a9d499e142,Azt hallottam hogy létezik nálatok női férfi feliratos ágynemű szett,information
+a9d499e144,"“Van olyan, hogy örökrózsa?”",information
+a9d499e145,A párom barátnője kapott egy rózsamacit. ,information
+a9d499e146,Mikor kaphatom meg az ajándékkosarat?,information
+a9d499e148,Nagyon tetszik az arany kézszobor.,information
+a9d499e149,Megérkezik egy héten belül a rózsamaci ha ma megrendelem?,information
+a9d499e150,A barátom valahol látott kézszobrot.,information
+a9d499e151,Ki tudnak szállítani egy nagy rózsamacit 2 munkanapon belül?,information
+a9d499e152,Tudnak addigra küldeni egy arany virágboxot?,information
+a9d499e153,Milyen árban vannak férfi ajándékok nálatok?,information
+a9d499e154,A weboldalatokon láttam egy órási rózsamacit.,information
+a9d499e155,"Érdeklődnék, hogy lehet-e kapni Önöknél születésnapi tortát?",information
+a9d499e156,Mennyi ideig tart a kiszállítás? ,information
+a9d499e157,Drágábbak a termékek az interneten?,information
+a9d499e158,"Mi történik, ha az általunk kiválasztott termék nincs raktáron?",information
+a9d499e159,Mennyibe kerül ez az örökrózsa? ,information
+a9d499e160,Van ebből a termékből raktáron? ,information
+a9d499e161,Kaphatok visszatérítést? ,information
+a9d499e233,Általában mennyi idő alatt kapom meg a rendelésem?,information
+a9d499e234,Milyen gyorsan kézbesítik a csomagot?,information
+a9d499e235,Mi a várható kiszállítási idő?,information
+a9d499e246,"“Nekem a rózsaszínt napelemes lampion tetszik. Kérhetném, hogy a szettben csak rózsaszín napelemes lampion legyen? Köszönöm!”",information
+a9d499e252,Lehet szálanként is vásárolni vörös rózsát?,information
+a9d499e162,A párom barátnője kapott egy rózsamacit és az enyém is szeretne kapni egyet.,order
+a9d499e163,A barátom valahol látott kézszobrot.,order
+a9d499e164,A barátnőm szeretne egy fekete rózsacsokrot díszdobozban.,order
+a9d499e166,Szeretném a feleségemnek meglepni egy romantikus kézszobrot.,order
+a9d499e167,Milyen árban vannak férfi ajándékok nálatok?,order
+a9d499e169,Végül a barátnőm rajongása győzött meg arról.,order
+a9d499e170,Készíttetnék egy pólót a férjemnek,order
+a9d499e171,mert a feleségemnek is így készült a ruha.,order
+a9d499e172,A tizedik házassági évfordulóra tudtok Bali térképet csinálni a mi nevünkkel?,order
+a9d499e173,Karácsonyra vennék valamit a barátomnak.,order
+a9d499e174,A héten lesz a házassági évfordulónk.,order
+a9d499e175,Holnap lesz a házassági évfordulónk.,order
+a9d499e176,Venni szeretnék valami szépet a barátnőm születésnapjára.,order
+a9d499e177,Szülinapi ajándékot keresek a páromnak.,order
+a9d499e182,"Mostanában érkezett több megrendelés felnőttek gyermekkori rajzának elkészítésére, kerek számú szülinapokra, nászajándékba.",order
+a9d499e183,Szeretném elkészíttetni babámnak első születésnapjára ezt a párnát.,order
+a9d499e184,Fekete erdő tortát szeretnék rendelni nagyapám 73. szülinapjára.,order
+a9d499e188,Tökéletes karácsonyi ajándék lehet.,order
+a9d499e189,Ki tudnak szállítani egy nagy rózsamacit 2 munkanapon belül?,order
+a9d499e190,Tudnak addigra küldeni egy arany virágboxot?,order
+a9d499e191,Tudnak küldeni egy virágcsokrot?,order
+a9d499e192,Nagyon tetszik neki ő is szeretne egy nagy arany színűt.,order
+a9d499e193,Nagyon tetszik az arany kézszobor.,order
+a9d499e194,Szeretnék a feleségemnek vásárolni egy romantikus kézszobrot.,order
+a9d499e195,A barátnőmnek szeretnék venni egy fekete rózsacsokrot díszdobozban.,order
+a9d499e196,Vennék egy kis virágcsokrot,order
+a9d499e197,Valami virágcsokrot szeretnék venni Valentin-napra ,order
+a9d499e198,Kérek egy rózsamacit kiszállítva.,order
+a9d499e199,Szeretnék a nővéremnek / férjemnek / feleségemnek emléktárgyat venni. ,order
+a9d499e200,Úgy gondoltam egy csokor rózsa szép lenne.,order
+a9d499e201,"“Az évfordulóra szeretnék rendelni egy Róma térképet a nevünkkel, szépen becsomagolva, hogy már csak át kelljen adnom.”",order
+a9d499e202,"“Rendelek egy nagy arany rózsamacit. Érkezhet már eleve díszcsomagolásban, megcímzett kártyával.”",order
+a9d499e203,"“Küldjetek egy arany rózsa csokrot diszcsomagolásban, megcímzett ajándékkártyával.“",order
+a9d499e204,"“Rendelni szeretnék egy szál piros örökrózsát piros szívvel, Pétertől Katinak címzett kártyával.”",order
+a9d499e205,"“Holnapután Valentin nap. Kérlek, küldjetek bármi rózsaszín ajándékot a barátnőmnek 10-15 ezer forint körül.”",order
+a9d499e206,"“Sziasztok! A weboldalon láttam, és szeretnék rendelni a feleségemnek -egy vörös rózsacsokrot.”",order
+a9d499e207,"“Tetszik ez a rózsacsokor, anyámnak szeretnék küldeni anyák napjára.“",order
+a9d499e208,"“Üdvözletem, szeretném megváltoztatni az édesanyámnak szánt rózsának a címét, az új cím legyen Székesfehérvár, toronysor 5.”",order_modification
+a9d499e209,"“Azt hiszem a rendelésem kiszállításánál nem leszek otthon. Szeretném, ha a következő címre szállítanátok: 1111 Budapest Zenta utca 5.”",order_modification
+a9d499e210,Ha megoldható akkor a címet módosítanám 1112 Budapest Kérő utca 90. ,order_modification
+a9d499e211,Szeretném megváltoztatni a szállítási címet.,order_modification
+a9d499e212,"“A rendelés leadása után vettem észre, hogy véletlenül kétszer tettem a kosárba az ágyneműt, úgyhogy az egyik megrendelést szeretném törölni.“",order_modification
+a9d499e213,"“Szeretném megváltoztatni a rendelesémet, melyben egy személyes térkép volt és egy nagy rózsacsokor. Ha megoldható kettő nagy rózsacsokorra és 1 térképre változtatnám”",order_modification
+a9d499e214,"“Úgy tűnik valamiért 4 szál örökrózsát adtam le rendelésbe, de nekem csak kettő kellene. Nagyon örülnék, ha megváltoztatható lenne kettő darabra.”",order_modification
+a9d499e215,"“A visszaigazolás szerint holnap szállítja ki a futár a megrendelt szív párnát, de nem fogom tudni átvenni. Megoldható lenne, hogy egy nappal később legyen kiszállítva?”",order_modification
+a9d499e216,"“Rendeltem a feleségemnek 1 szupernagy kék rózsamacit díszcsomagolással 7 napos szállítási idővel, szeretném módosítani a kiszállítást 3 nappal későbbre”",order_modification
+a9d499e217,"“Tegnap rendeltem egy zöld nagy méretű rózsamacit, viszont praktikusabb lenne, ha a közepes méretűből vennék rózsaszínt. Örülnék, ha módosítani tudnátok a rendelésemet.” ",order_modification
+a9d499e218,"“Volt egy 9 ezer forintos rendelésem a weboldalon, melyben egy közepes méretű vörös rózsacsokor volt, örülnék, ha helyette egy nagy méretű vörös rózsacsokrot készítenétek 14 ezerért.”",order_modification
+a9d499e219,"“Holnapi nap az átvetelnél nekem kéne otthon lennem, de nem később érek haza, ezért szeretném, ha a feleségemnek adnák át a kézszobrokat”",order_modification
+a9d499e220,"“Sajnos a rendelésemet nem tudom átvenni a kiszállítási napon. A fiamnak szóltam, hogy vegye át. Az elérhetőségét csatolom”",order_modification
+a9d499e221,"“Amennyiben nem jelent problémát az eredeti rendelésemet, melyben egy szívpárna szerepel, szeretném, ha a jegyesemnek adnátok át egy üdvözlő üzenettel”",order_modification
+a9d499e239,"“A mai napon, 06.01-jén rendeltem ebből a werbshopból Pető Szilvia néven, 138359-es rendelésszámmal. Szeretnék a rendelésemhez még 1 db rózsaszín  rózsamacit adni. Kérhetem, a rendelésem módosítását?”",order_modification
+a9d499e240,"“Szeretnék változtatni a szállítási címen. Reggel kaptam egy e-mailt, hogy ma érkezik a csomag a webshopból, de sajnos ma mégsem tudok otthon lenni. A munkahelyemen tudom átvenni. Kérhetem, a rendelésem módosítását?”",order_modification
+a9d499e243,"“Rendeltem egy rózsamacit, de a színe mégsem tetszik. Szeretném, ha kicserélnétek fehér színűre piros helyett!”",order_modification
+a9d499e244,"“10 közepes rózsamacit rendeltem, de mégis a nagyobb tetszik. Kérhetném a rendelésem módosítását? Köszönöm!”",order_modification
+a9d499e245,"“3 db páros ágyneműt rendeltem , de szeretném kicserélni az egyiket egy romantikus kézszoborra. Kérhetném a rendelésem módosítását? Köszönöm!”",order_modification
+a9d499e248,"“Ma rendeltem ebből a werbshopból Pető Szilvia néven, 4570065 relésszámmal.  Szeretnék a szállítási időn változtatni jövőhét szerdára. Kérhetem, a rendelésem módosítását?”",order_modification
+a9d499e249,"“Szeretnék változtatni a szállítási címen. Reggel kaptam egy e-mailt, hogy ma érkezik a csomag a webshopból, de sajnos ma mégsem tudok otthon lenni. A munkahelyemen tudom átvenni. Kérhetem, a rendelésem módosítását?”",order_modification

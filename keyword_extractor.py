@@ -12,6 +12,6 @@ def get_hotwords(text):
         if token.text in nlp.Defaults.stop_words or token.text in punctuation:
             continue
         if token.pos_ in pos_tag:
-            result.append(token.text)
+            result.append(token.lemma_)
     return result
 
