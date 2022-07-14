@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "textcat-sentece-creator",
+  "private_key_id": "e7150aa8da32f6e211ac4a31b603a2a7a72ce98a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCr4vVKLFlp45O3\nZkD8vpAlBQmcZBl9Q5JaGEe6ggdh9T1TJf6UxHVdUr75HF+6QLJgLJeHopxrXGGX\nOqdSw8p86gpLnCb/qZsyBA38Ga218wKtHscEhfw8ffrUkXqXg3aK5eu2oB1Cjos7\n+dbu2TFnRtAtkQjqppp1N4DSXzpw2ItZIRwPqptsuCAxjRh7l4ELzjOgY3MLntkV\n4CrlR0nS9JM1nUZUZXD55AuhkjnfktbOEhFDEn4aYmDiP4P6363QRJiHlUuTpr2G\nSMJEcW5DFaPMC6RrcdLMOKUxgm5dGaf2WFFZZwSAw0zUIbK7xcttmGVsgAFlflaN\nMoE0c1/RAgMBAAECggEAEC+YNFbCiTp/VJ3+CObbfUbxCZ9x+IYiTBZc+8rGjfKJ\nZrDtXR42ZJY4Ck6CE7CHs4+Daef1xZTekj55Vu19vf9OfqH62KikpwQzem3DGj8C\n3aFIMax5zQr6caWs5wNfyHLf/FOtybCRWzGazCVa9fwYuq+9iJYtdZQHTxgdUVal\nV76V8TxKQaokum3vpz/PP01De27sGL1ayaOPxCmnBFCs8qcw49LmzJ5Sw7zWLC1l\nXht2Ao6MDkGuyTFcnK3TrCqmEzE3OAhMQd6E+UhlKXoVUI58GmdNtLIeAxksi7rd\nzG149Lo25Dntr0C0SBAU73aWvotUlo36OVSbaiqv+QKBgQDaVYvcYUD98kzhD1l8\nXXbMGA1GucCBkPS5DN9j/FjVabm3Bvpce6mJzXTCjsDajvEPkU4Qg0Io//cCfW0Y\ncKijs9ZaD5yDhn8D+49E0HRURq+J1YxVaB2Bk4m+FgfceKbFlFS0ML7QqCXMHf0n\nwzC+zDoDmXiIDzSqipByZmniGQKBgQDJihyQrURxS/ainp1ICWNs424YWaTIZSHf\nKGfmTBI9rVceei3u0ZJL++are0Era6zeG/nmBhuLcob+bkYQYcHWtcviaqoxTnO7\nwRXdwunPPwOApotPnn7+C5BBLnBKvqBLnYOF1nV5xX09IUuCKR3QpqLIQhqmDdeb\nJUBfnEfSeQKBgAyQ9+fLQS5cj8g0VfYuevPsPndfoZDTgwJTl1ft4j8GQsYiBK7l\n/zALPzkjdj4eFAnNVyzkIR6y/MiL54eMlGg3pZKxa1S2nQDhrbFMPiXLm7bXL6iK\nwYf/seHa6sDpwM+GZgmo9JKV2vcQks2DEn8oyf4DC0jpdyKJrx6mflmhAoGAAJpN\nI5GhFsWnYy0eQ0zj4zt65M+/0mmbBFPWm7W2iECwdgLfiEtQKLIEKpcfxsV3quJi\niPGTu4MILFKgGwRv0/iPN4oiICuf5Pva2OLwWBJULFpTKFXNA219bPR6mX6gdBlw\nf0H47/hLO5eR5j3BPRKCgh7QfZalAm3GF4McI+ECgYBu23a6Sza2mP1E3gAckU8r\nG2dUfVAR9OS7rJy3X9VfPlTOubuXYqrb8TFJ/OM62YWvlV3OXs+ZxX0LXLQWTS2m\nUq06kbsy7mAv9d9BVs3OgPVzZBIVMBJ9rHIbi4YtDdRVIM4V5R8U6Q9GwL85qbAR\nJkQbJc9Ae2tk+juiz9ZE6Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "textcatsentencecreator@textcat-sentece-creator.iam.gserviceaccount.com",
+  "client_id": "110397860418006610762",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/textcatsentencecreator%40textcat-sentece-creator.iam.gserviceaccount.com"
+}
