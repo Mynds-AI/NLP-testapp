@@ -1,0 +1,702 @@
+értékelt mondat,elsődleges szándék név,elsődleges szándék érték,paraméter név,paraméter érték,többi szándék
+"Hol lehet elérni titeket?
+",information,100.00%,"[('titeket', 'PRODUCT')]",[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van boltotok vagy irodátok?
+",information,100.00%,[],"['boltot', 'irodáik', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Régóta működik már a webshop?
+",information,100.00%,"[('webshop', 'GENDERROLE')]",['webshop'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Telefonon vagy személyesen is tudok beszélni veletek?
+",information,100.00%,"[('tudok', 'PRODUCTCOLOR')]","['telefon', 'személyes']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mit lehet tudni a rosebear-ről ?
+",information,100.00%,"[('rosebear-ről', 'GENDERROLE')]",[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mit kell tudni a rosebear-ről ?
+",information,100.00%,"[('rosebear-ről', 'GENDERROLE')]",[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ha írok nektek e-mailt milyen gyorsan válaszoltok?
+",information,100.00%,"[('írok', 'PRODUCTCOLOR')]","['e-mail', 'gyors']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mi az a rosebear?
+",information,89.02%,[],"['rosebear', '\n']","[{'name': 'order', 'percentage': '6.58%'}, {'name': 'order_modification', 'percentage': '0.81%'}, {'name': 'complaint', 'percentage': '3.59%'}]"
+"Mire való ez a webáruház?
+",information,100.00%,[],['webáruház'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mitől jó a rosebearhungary?
+",information,100.00%,[],"['mi', 'rosebearhungary']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mire jók ezek a rosebear izék
+",information,100.00%,[],"['jó', 'rosebear', 'izék']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mióta van ez a márka?
+",information,99.67%,[],['márka'],"[{'name': 'order', 'percentage': '0.07%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.25%'}]"
+"Kié ez a brand?
+",information,100.00%,[],['brand'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ki alapította a rosebeart?
+",information,100.00%,"[('rosebeart', 'GENDERROLE')]","['rosebeart', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Miért rendeljek a roszebearhungary-tól?
+",information,100.00%,"[('roszebearhungary-tól', 'GENDERROLE')]",[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Tetszenek a termékek de nem tudom szabad-e innen rendelnem győzzenek meg !
+",complaint,90.15%,"[('termékek', 'GENDERROLE')]","['termék', 'szabad']","[{'name': 'information', 'percentage': '4.84%'}, {'name': 'order', 'percentage': '2.71%'}, {'name': 'order_modification', 'percentage': '2.31%'}]"
+"Kun Béla vagyok múlt héten rendeltem egy nagy virágboxot.
+",unknown intent,100.00%,"[('nagy', 'PRODUCTSIZE'), ('virágboxot', 'PRODUCT')]","['béla', 'múlt', 'hét', 'virágboxot']","[{'name': 'unknown intent', 'percentage': '100.00%'}]"
+"Kék színben van ilyen?
+",order_modification,96.66%,"[('Kék', 'PRODUCTCOLOR')]","['kék', 'szín', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '3.33%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Mennyi a kicsi rózsamaci kiszállítási ideje?
+",information,97.52%,"[('kicsi', 'PRODUCTSIZE'), ('rózsamaci', 'PRODUCT')]","['kicsi', 'rózsamaci', 'kiszállítási', 'idő', '\n']","[{'name': 'order', 'percentage': '1.05%'}, {'name': 'order_modification', 'percentage': '0.13%'}, {'name': 'complaint', 'percentage': '1.30%'}]"
+"Azt hallottam hogy létezik nálatok női férfi feliratos ágynemű szett. Mutasd meg őket!
+",complaint,91.89%,"[('ágynemű szett', 'PRODUCT')]","['nálat', 'női', 'férfi', 'feliratos', 'ágynemű']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '8.10%'}]"
+"Meg szeretném nézni az örökrózsát.
+",information,81.08%,"[('örökrózsát', 'PRODUCT')]",['örökrózsa'],"[{'name': 'order', 'percentage': '10.18%'}, {'name': 'order_modification', 'percentage': '1.01%'}, {'name': 'complaint', 'percentage': '7.72%'}]"
+"A párom barátnője kapott egy rózsamacit. Mutasd meg!
+",complaint,98.79%,"[('rózsamacit', 'PRODUCT')]","['pár', 'barátnő', 'rózsamacit']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '1.20%'}]"
+"Mikor kaphatom meg az ajándékkosarat?
+",information,100.00%,"[('ajándékkosarat', 'PRODUCT')]",['ajándékkosar'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Nagyon tetszik az arany kézszobor, vennék egyet.
+",order,99.95%,"[('arany', 'PRODUCTCOLOR'), ('kézszobor', 'PRODUCT')]","['arany', 'kézszobor', 'egy']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Megérkezik egy héten belül a rózsamaci ha ma megrendelem?
+",order,94.55%,"[('rózsamaci', 'PRODUCT')]","['hét', 'rózsamaci']","[{'name': 'information', 'percentage': '3.34%'}, {'name': 'order_modification', 'percentage': '1.86%'}, {'name': 'complaint', 'percentage': '0.24%'}]"
+"A barátom valahol látott kézszobrot és meg szeretném nézni.
+",information,84.41%,"[('barátom', 'GENDERROLE'), ('kézszobrot', 'PRODUCT')]","['barát', 'kézszobor']","[{'name': 'order', 'percentage': '5.15%'}, {'name': 'order_modification', 'percentage': '1.14%'}, {'name': 'complaint', 'percentage': '9.31%'}]"
+"Ki tudnak szállítani egy nagy rózsamacit 2 munkanapon belül?
+",information,89.73%,"[('nagy', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT')]","['rózsamacit', 'munkanap']","[{'name': 'order', 'percentage': '10.20%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.06%'}]"
+"Tudnak addigra küldeni egy arany virágboxot?
+",information,100.00%,"[('arany', 'PRODUCTCOLOR'), ('virágboxot', 'PRODUCT')]","['arany', 'virágboox', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen árban vannak férfi ajándékok nálatok?
+",information,100.00%,[],"['ár', 'férfi', 'ajándék', 'nálat']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A weboldalatokon láttam egy órási rózsamacit. Mutasd meg!
+",complaint,98.79%,"[('órási', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT')]","['weboldalat', 'órási', 'rózsamaci']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '1.20%'}]"
+"Érdeklődnék, hogy lehet-e kapni Önöknél születésnapi tortát?
+",information,100.00%,[],"['ön', 'születésnapi', 'torta', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyi ideig tart a kiszállítás?
+",information,99.95%,[],"['idő', 'kiszállítás']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.05%'}]"
+"Drágábbak a termékek az interneten?
+",complaint,90.28%,"[('termékek', 'GENDERROLE')]","['drága', 'termék', 'internet']","[{'name': 'information', 'percentage': '0.04%'}, {'name': 'order', 'percentage': '9.08%'}, {'name': 'order_modification', 'percentage': '0.60%'}]"
+"Mi történik, ha az általunk kiválasztott termék nincs raktáron?
+",information,100.00%,[],"['kiválasztott', 'termék', 'raktár', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerül ez az örökrózsa?
+",information,99.96%,"[('örökrózsa', 'PRODUCT')]",['örökrózsa'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Van ebből a termékből raktáron?
+",information,100.00%,"[('termékből', 'GENDERROLE')]","['termék', 'raktár', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kaphatok visszatérítést?
+",information,99.91%,"[('Kaphatok visszatérítést', 'OCCASION')]",['visszatérítés'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.09%'}]"
+"A párom barátnője kapott egy rózsamacit és az enyém is szeretne kapni egyet.
+",order,99.89%,"[('rózsamacit', 'PRODUCT')]","['pár', 'barátnő', 'rózsamacit', 'egy']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.11%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A barátnőm szeretne egy fekete rózsacsokrot díszdobozban.
+",order,99.95%,"[('barátnőm', 'GENDERROLE'), ('fekete', 'PRODUCTCOLOR'), ('rózsacsokrot', 'PRODUCT')]","['barátnő', 'fekete', 'rózsacsokor', 'díszdoboz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretném a feleségemnek meglepni egy romantikus kézszobrot.
+",order,99.96%,"[('feleségemnek', 'GENDERROLE'), ('kézszobrot', 'PRODUCT')]","['feleség', 'romantikus', 'kézszobor']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.04%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Végül a barátnőm rajongása győzött meg arról.
+",complaint,69.47%,"[('barátnőm', 'GENDERROLE')]","['barátnő', 'rajongás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '27.55%'}, {'name': 'order_modification', 'percentage': '2.97%'}]"
+"Készíttetnék egy pólót a férjemnek
+",order,84.87%,"[('férjemnek', 'GENDERROLE')]","['póló', 'férj', '\n']","[{'name': 'information', 'percentage': '14.97%'}, {'name': 'order_modification', 'percentage': '0.08%'}, {'name': 'complaint', 'percentage': '0.08%'}]"
+"A tizedik házassági évfordulóra tudtok Bali térképet csinálni a mi nevünkkel?
+",order,99.81%,"[('házassági évfordulóra', 'OCCASION'), ('térképet', 'PRODUCT')]","['tizedik', 'házassági', 'évforduló', 'bali', 'térkép', 'név']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.15%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Karácsonyra vennék valamit a barátomnak.
+",order,99.81%,"[('Karácsonyra', 'OCCASION'), ('barátomnak', 'GENDERROLE')]","['karácsony', 'barát']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.16%'}, {'name': 'complaint', 'percentage': '0.03%'}]"
+"A héten lesz a házassági évfordulónk.
+",order,99.98%,"[('házassági évfordulónk', 'OCCASION')]","['hét', 'házassági', 'évforduló']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Holnap lesz a házassági évfordulónk.
+",order,99.98%,"[('házassági évfordulónk', 'OCCASION')]","['házassági', 'évforduló']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Venni szeretnék valami szépet a barátnőm születésnapjára.
+",information,99.75%,"[('barátnőm', 'GENDERROLE'), ('születésnapjára', 'OCCASION')]","['szép', 'barátnő', 'születésnap']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.09%'}, {'name': 'complaint', 'percentage': '0.15%'}]"
+"Szülinapi ajándékot keresek a páromnak.
+",order,99.99%,"[('páromnak', 'GENDERROLE')]","['szülinapi', 'ajándék', 'pár']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mostanában érkezett több megrendelés felnőttek gyermekkori rajzának elkészítésére, kerek számú szülinapokra, nászajándékba.
+",complaint,97.72%,[],"['megrendelés', 'felnőtt', 'gyermekkori', 'rajza', 'elkészítés', 'kerek', 'számú', 'szülinap', 'nászajándék']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '1.88%'}, {'name': 'order_modification', 'percentage': '0.40%'}]"
+"Szeretném elkészíttetni babámnak első születésnapjára ezt a párnát.
+",order,99.99%,"[('születésnapjára', 'OCCASION'), ('párnát', 'GENDERROLE')]","['baba', 'első', 'születésnap', 'párna']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Fekete erdő tortát szeretnék rendelni nagyapám 73. szülinapjára.
+",order,100.00%,"[('szülinapjára', 'OCCASION')]","['fekete', 'erdő', 'torta', 'nagyapa', '73.', 'szülinap']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Tökéletes karácsonyi ajándék lehet.
+",order,100.00%,[],"['tökéletes', 'karácsonyi', 'ajándék', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Tudnak küldeni egy virágcsokrot?
+",order,100.00%,"[('virágcsokrot', 'PRODUCT')]","['virágcsokor', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Nagyon tetszik neki ő is szeretne egy nagy arany színűt.
+",order,99.92%,"[('nagy', 'PRODUCTSIZE'), ('arany', 'PRODUCTCOLOR')]","['arany', 'színűt']","[{'name': 'information', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '0.07%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretnék a feleségemnek vásárolni egy romantikus kézszobrot.
+",order,99.10%,"[('feleségemnek', 'GENDERROLE'), ('kézszobrot', 'PRODUCT')]","['feleség', 'romantikus', 'kézszobor']","[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '0.85%'}, {'name': 'complaint', 'percentage': '0.02%'}]"
+"A barátnőmnek szeretnék venni egy fekete rózsacsokrot díszdobozban.
+",order,100.00%,"[('barátnőmnek', 'GENDERROLE'), ('fekete', 'PRODUCTCOLOR'), ('rózsacsokrot', 'PRODUCT')]","['barátnő', 'fekete', 'rózsacsokor', 'díszdoboz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Vennék egy kis virágcsokrot
+",order,100.00%,"[('virágcsokrot', 'PRODUCT')]","['kis', 'virágcsokor', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Valami virágcsokrot szeretnék venni Valentin-napra
+",order,100.00%,"[('Valami', 'PRODUCTSIZE'), ('virágcsokrot', 'PRODUCT')]","['virágcsokor', 'valentin-napra']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kérek egy rózsamacit kiszállítva.
+",order,99.89%,"[('rózsamacit', 'PRODUCT')]",['rózsamacit'],"[{'name': 'information', 'percentage': '0.03%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.08%'}]"
+"Szeretnék a nővéremnek / férjemnek / feleségemnek emléktárgyat venni.
+",order,100.00%,"[('nővéremnek', 'GENDERROLE'), ('férjemnek', 'GENDERROLE'), ('feleségemnek', 'GENDERROLE')]","['nővér', 'férj', 'feleség', 'emléktárgy']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Úgy gondoltam egy csokor rózsa szép lenne.
+",order,99.99%,[],"['csokor', 'rózsa', 'szép']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Az évfordulóra szeretnék rendelni egy Róma térképet a nevünkkel, szépen becsomagolva, hogy már csak át kelljen adnom.”
+",order,73.31%,"[('térképet', 'PRODUCT')]","['évforduló', 'róma', 'térkép', 'név', 'szép']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '24.75%'}, {'name': 'complaint', 'percentage': '1.95%'}]"
+"Rendelek egy nagy arany rózsamacit. Érkezhet már eleve díszcsomagolásban, megcímzett kártyával.”
+",order,99.05%,"[('nagy', 'PRODUCTSIZE'), ('arany', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT'), ('díszcsomagolásban', 'PRODUCT')]","['arany', 'rózsamacit', 'díszcsomagolás', 'megcímzett', 'kártya']","[{'name': 'information', 'percentage': '0.36%'}, {'name': 'order_modification', 'percentage': '0.04%'}, {'name': 'complaint', 'percentage': '0.56%'}]"
+"Küldjetek egy arany rózsa csokrot diszcsomagolásban, megcímzett ajándékkártyával.
+",order,100.00%,"[('arany', 'PRODUCTCOLOR'), ('diszcsomagolásban', 'PRODUCT')]","['arany', 'rózsa', 'csokor', 'diszcsomagolás', 'megcímzett', 'ajándékkártya']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Rendelni szeretnék egy szál piros örökrózsát piros szívvel, Pétertől Katinak címzett kártyával.”
+",order,98.66%,"[('piros', 'PRODUCTCOLOR'), ('piros', 'PRODUCTCOLOR')]","['szál', 'piros', 'örökrózsa', 'piros', 'szív', 'péter', 'kati', 'címzett', 'kártya']","[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '1.32%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Holnapután Valentin nap. Kérlek, küldjetek bármi rózsaszín ajándékot a barátnőmnek 10-15 ezer forint körül.”
+",order_modification,70.99%,"[('Valentin nap', 'OCCASION'), ('barátnőmnek', 'GENDERROLE'), ('körül', 'PRODUCT')]","['valentin', 'nap', 'rózsaszín', 'ajándék', 'barátnő', 'forint']","[{'name': 'information', 'percentage': '0.40%'}, {'name': 'order', 'percentage': '1.39%'}, {'name': 'complaint', 'percentage': '27.22%'}]"
+"Sziasztok! A weboldalon láttam, és szeretnék rendelni a feleségemnek -egy vörös rózsacsokrot.”
+",order,98.75%,"[('feleségemnek', 'GENDERROLE'), ('vörös', 'PRODUCTCOLOR'), ('rózsacsokrot', 'PRODUCT')]","['weboldal', 'feleség', '-egy', 'vörös', 'rózsacsokor']","[{'name': 'information', 'percentage': '0.34%'}, {'name': 'order_modification', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '0.86%'}]"
+"Tetszik ez a rózsacsokor, anyámnak szeretnék küldeni anyák napjára.
+",order,100.00%,"[('rózsacsokor', 'PRODUCT'), ('anyák napjára', 'OCCASION')]","['rózsacsokor', 'anya', 'anya', 'nap']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Üdvözletem, szeretném megváltoztatni az édesanyámnak szánt rózsának a címét, az új cím legyen Székesfehérvár, toronysor 5.”
+",complaint,78.89%,"[('édesanyámnak', 'PRODUCTCOLOR'), ('címét', 'GENDERROLE')]","['édesanya', 'szánt', 'rózsa', 'cím', 'cím', 'székesfehérvár', 'toronysor', '5.']","[{'name': 'information', 'percentage': '1.57%'}, {'name': 'order', 'percentage': '15.07%'}, {'name': 'order_modification', 'percentage': '4.46%'}]"
+"Azt hiszem a rendelésem kiszállításánál nem leszek otthon. Szeretném, ha a következő címre szállítanátok: 1111 Budapest Zenta utca 5.”
+",order_modification,84.48%,"[('rendelésem', 'PRODUCTCOLOR'), ('következő', 'GENDERROLE'), ('Budapest Zenta', 'ORDERNUMBER')]","['rendelés', 'kiszállítás', 'következő', 'cím', 'budapest', 'zenta', 'utca', '5.']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '1.61%'}, {'name': 'complaint', 'percentage': '13.91%'}]"
+"Ha megoldható akkor a címet módosítanám 1112 Budapest Kérő utca 90.
+",order_modification,99.88%,"[('címet', 'GENDERROLE'), ('Budapest Kérő', 'ORDERNUMBER')]","['megoldható', 'cím', 'budapest', 'kérő', 'utca', '90.', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '0.07%'}]"
+"Szeretném megváltoztatni a szállítási címet.
+",order_modification,94.93%,"[('szállítási', 'GENDERROLE')]","['szállítási', 'cím']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.24%'}, {'name': 'complaint', 'percentage': '4.83%'}]"
+"A rendelés leadása után vettem észre, hogy véletlenül kétszer tettem a kosárba az ágyneműt, úgyhogy az egyik megrendelést szeretném törölni.
+",order_modification,100.00%,"[('kosárba', 'PRODUCTCOLOR'), ('ágyneműt', 'PRODUCT'), ('egyik', 'PRODUCTCOLOR')]","['rendelés', 'leadás', 'ész', 'kosár', 'ágynemű', 'megrendelés']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretném megváltoztatni a rendelesémet, melyben egy személyes térkép volt és egy nagy rózsacsokor. Ha megoldható kettő nagy rózsacsokorra és 1 térképre változtatnám”
+",order_modification,80.35%,"[('rendelesémet', 'PRODUCT'), ('személyes', 'PRODUCTCOLOR'), ('nagy', 'PRODUCTSIZE'), ('rózsacsokor', 'PRODUCT'), ('nagy', 'PRODUCTSIZE')]","['rendeleséem', 'személyes', 'térkép', 'rózsacsokor', 'megoldható', 'rózsacsokor', 'térkép', '\n']","[{'name': 'information', 'percentage': '0.01%'}, {'name': 'order', 'percentage': '15.86%'}, {'name': 'complaint', 'percentage': '3.78%'}]"
+"Úgy tűnik valamiért 4 szál örökrózsát adtam le rendelésbe, de nekem csak kettő kellene. Nagyon örülnék, ha megváltoztatható lenne kettő darabra.”
+",order,95.18%,"[('örökrózsát', 'PRODUCT'), ('kettő', 'PRODUCTSIZE')]","['szál', 'örökrózsa', 'rendelés', 'megváltoztatható', 'darab']","[{'name': 'information', 'percentage': '0.06%'}, {'name': 'order_modification', 'percentage': '4.36%'}, {'name': 'complaint', 'percentage': '0.40%'}]"
+"A visszaigazolás szerint holnap szállítja ki a futár a megrendelt szív párnát, de nem fogom tudni átvenni. Megoldható lenne, hogy egy nappal később legyen kiszállítva?”
+",information,63.65%,"[('visszaigazolás', 'GENDERROLE'), ('futár', 'GENDERROLE')]","['visszaigazolás', 'futár', 'megrendelt', 'szív', 'párna', 'megoldható', 'nap']","[{'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '35.31%'}, {'name': 'complaint', 'percentage': '1.03%'}]"
+"Rendeltem a feleségemnek 1 szupernagy kék rózsamacit díszcsomagolással 7 napos szállítási idővel, szeretném módosítani a kiszállítást 3 nappal későbbre”
+",complaint,52.82%,"[('feleségemnek', 'GENDERROLE'), ('rózsamacit', 'PRODUCT'), ('kiszállítást', 'GENDERROLE')]","['feleség', 'szupernagy', 'kék', 'rózsamacit', 'díszcsomagolás', 'napos', 'szállítási', 'idő', 'kiszállítás', 'nap']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '47.17%'}]"
+"Tegnap rendeltem egy zöld nagy méretű rózsamacit, viszont praktikusabb lenne, ha a közepes méretűből vennék rózsaszínt. Örülnék, ha módosítani tudnátok a rendelésemet.”
+",order_modification,71.19%,"[('zöld', 'PRODUCTCOLOR'), ('nagy', 'PRODUCTSIZE'), ('méretű', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT'), ('praktikusabb', 'PRODUCTCOLOR'), ('közepes', 'GENDERROLE'), ('rendelésemet', 'GENDERROLE')]","['zöld', 'méretű', 'rózsamacit', 'praktikus', 'közepes', 'méretű', 'rózsaszín', 'rendelés']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '28.79%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Volt egy 9 ezer forintos rendelésem a weboldalon, melyben egy közepes méretű vörös rózsacsokor volt, örülnék, ha helyette egy nagy méretű vörös rózsacsokrot készítenétek 14 ezerért.”
+",unknown intent,100.00%,"[('weboldalon', 'GENDERROLE'), ('közepes', 'PRODUCTCOLOR'), ('vörös', 'PRODUCTCOLOR'), ('nagy', 'PRODUCTSIZE'), ('vörös', 'PRODUCTCOLOR'), ('rózsacsokrot', 'PRODUCT')]","['forintos', 'rendelés', 'weboldal', 'közepes', 'méretű', 'vörös', 'rózsacsokor', 'méretű', 'vörös', 'rózsacsokor']","[{'name': 'unknown intent', 'percentage': '100.00%'}]"
+"Holnapi nap az átvetelnél nekem kéne otthon lennem, de nem később érek haza, ezért szeretném, ha a feleségemnek adnák át a kézszobrokat”
+",order,88.81%,"[('feleségemnek', 'GENDERROLE'), ('kézszobrokat', 'GENDERROLE')]","['holnapi', 'nap', 'átvetel', 'feleség', 'kézszobr', '”']","[{'name': 'information', 'percentage': '0.05%'}, {'name': 'order_modification', 'percentage': '10.23%'}, {'name': 'complaint', 'percentage': '0.90%'}]"
+"Sajnos a rendelésemet nem tudom átvenni a kiszállítási napon. A fiamnak szóltam, hogy vegye át. Az elérhetőségét csatolom”
+",unknown intent,100.00%,"[('rendelésemet', 'GENDERROLE'), ('kiszállítási', 'GENDERROLE')]","['rendelés', 'kiszállítási', 'nap', 'fi', 'elérhetőség', '\n']","[{'name': 'unknown intent', 'percentage': '100.00%'}]"
+"Amennyiben nem jelent problémát az eredeti rendelésemet, melyben egy szívpárna szerepel, szeretném, ha a jegyesemnek adnátok át egy üdvözlő üzenettel”
+",order,75.11%,"[('eredeti', 'PRODUCTCOLOR'), ('üdvözlő', 'PRODUCTCOLOR')]","['probléma', 'eredeti', 'rendelés', 'szívpárna', 'jegyesem', 'üdvözlő', 'üzenet']","[{'name': 'information', 'percentage': '0.64%'}, {'name': 'order_modification', 'percentage': '22.93%'}, {'name': 'complaint', 'percentage': '1.31%'}]"
+"A kiszállított térkép üvege össze van karcolva, szeretném, ha küldenének helyette másikat.
+",complaint,99.66%,[],"['kiszállított', 'térkép', 'üveg']","[{'name': 'information', 'percentage': '0.21%'}, {'name': 'order', 'percentage': '0.09%'}, {'name': 'order_modification', 'percentage': '0.04%'}]"
+"Elképzelhető, hogy a szállítás során a közös kézszobraink megrongálódtak, kicsomagolásnál már az ujjak hiányoztak. Remélem tudnak küldeni másikat
+",complaint,100.00%,"[('szállítás', 'GENDERROLE'), ('közös', 'GENDERROLE'), ('ujjak', 'PRODUCTCOLOR'), ('hiányoztak', 'PRODUCT')]","['elképzelhető', 'szállítás', 'sor', 'közös', 'kézszobra', 'kicsomagolás', 'ujj', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Karácsonyra családi kézszobor szettet rendeltem, de páros szettet kaptam. Szeretném, ha küldenének egy családit.
+",complaint,100.00%,"[('Karácsonyra', 'OCCASION'), ('kézszobor', 'PRODUCT'), ('családit', 'PRODUCT')]","['karácsony', 'családi', 'kézszobor', 'szett', 'páros', 'szett']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Ezek a rózsamacik elég rossz minőségűek, ilyet a feleségemnek nem adnék át, csak remélni tudom, hogy van más terméketek, ami nem ilyen silány, szeretném kicserélni a 2 szívpárnára
+",complaint,100.00%,"[('rózsamacik', 'GENDERROLE'), ('feleségemnek', 'GENDERROLE'), ('terméketek', 'PRODUCT'), ('silány', 'PRODUCT')]","['rózsamacik', 'rossz', 'minőségű', 'feleség', 'terméket', 'silány', 'szívpárn']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Megkaptuk a térképet, de nem tetszik. Azt olvastam, hogy van rá lehetőség, hogy a terméket kicserélik. Küldjetek ezért a 7 ezer forintért bármit, ami népszerű nálatok
+",complaint,100.00%,"[('térképet', 'PRODUCT'), ('terméket', 'GENDERROLE')]","['térkép', 'lehetőség', 'termék', 'forint', 'népszerű', 'nálat']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Anyák napjára rendeltem egy rózsaszín rózsamacit, de nem érkezett meg, úgyhogy szeretném a pénz visszakapni.
+",complaint,99.14%,"[('rózsaszín', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT'), ('pénz', 'GENDERROLE')]","['anya', 'nap', 'rózsaszín', 'rózsamaci', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.86%'}]"
+"Ezek a kézszobrok ocsmányak. Karácsonyra rendeltük, de ha lehetséges, akkor vigyétek vissza és utaljátok vissza az árát
+",complaint,99.99%,"[('kézszobrok', 'PRODUCTCOLOR'), ('Karácsonyra', 'OCCASION'), ('árát', 'PRODUCT')]","['kézszobr', 'ocsmány', 'karácsony', 'lehetséges', 'ár']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Diszcsomagolással kiszállítottak valamit a feleségemnek, ami első sorban nem egy örökrózsacsokor volt, amit rendeltem, másodszor pedig a csomagolás meg volt nyomódva.
+",complaint,99.15%,"[('feleségemnek', 'GENDERROLE')]","['diszcsomagolás', 'feleség', 'első', 'sor', 'örökrózsacsokor', 'csomagolás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.85%'}]"
+"Hibás terméket kaptam, mit tehetek?
+",complaint,100.00%,[],"['hibás', 'termék', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Mit tegyek a hibásan kapott termékemmel?
+",complaint,100.00%,"[('hibásan', 'GENDERROLE')]","['hibás', 'kapott', 'termék', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Általában mennyi idő alatt kapom meg a rendelésem?
+",complaint,83.32%,[],"['idő', 'rendelés']","[{'name': 'information', 'percentage': '0.47%'}, {'name': 'order', 'percentage': '0.64%'}, {'name': 'order_modification', 'percentage': '15.56%'}]"
+"Milyen gyorsan kézbesítik a csomagot?
+",information,100.00%,[],"['gyors', 'csomag']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mi a várható kiszállítási idő?
+",information,100.00%,"[('várható', 'GENDERROLE')]","['várható', 'kiszállítási', 'idő', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Nem jött meg a rózsamaci, amit rendeltem.
+",complaint,99.05%,"[('rózsamaci', 'PRODUCT')]","['rózsamaci', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.95%'}]"
+"Nem egy szál rózsára, hanem egy egész csokor piros rózsára van szükségem.
+",complaint,97.37%,"[('rózsára', 'PRODUCT'), ('piros', 'PRODUCTCOLOR')]","['szál', 'rózsa', 'csokor', 'piros', 'rózsa', 'szükség']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '2.62%'}]"
+"Szállítás közben elszakadt a kék rózsamaci, amit rendeltem. Nem is értem. Tudtok másikat küldeni? A megrendelés számra nem emlékszek.
+",complaint,100.00%,"[('kék', 'PRODUCTCOLOR'), ('rózsamaci', 'PRODUCT')]","['szállítás', 'kék', 'rózsamaci', 'megrendelés', 'szám', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"A mai napon, 06.01-jén rendeltem ebből a werbshopból Pető Szilvia néven, 138359-es rendelésszámmal. Szeretnék a rendelésemhez még 1 db rózsaszín rózsamacit adni. Kérhetem, a rendelésem módosítását?”
+",information,99.51%,"[('rendelésszámmal', 'ORDERNUMBER'), ('rózsaszín', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT')]","['mai', 'nap', '06.01-jén', 'werbshop', 'pető', 'szilvia', 'név', '138359-es', 'rendelésszám', 'rendelés', 'db', 'rózsaszín', 'rózsamaci', 'rendelés', 'módosítás']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.45%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Szeretnék változtatni a szállítási címen. Reggel kaptam egy e-mailt, hogy ma érkezik a csomag a webshopból, de sajnos ma mégsem tudok otthon lenni. A munkahelyemen tudom átvenni. Kérhetem, a rendelésem módosítását?
+",complaint,99.35%,"[('szállítási', 'GENDERROLE'), ('webshopból', 'GENDERROLE')]","['szállítási', 'cím', 'e-mail', 'csomag', 'webshop', 'munkahely', 'rendelés', 'módosítás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.65%'}]"
+"15 db rózsamacit rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?
+",complaint,99.93%,"[('rózsamacit', 'PRODUCT')]","['db', 'rózsamaci', 'kevesebb']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.07%'}]"
+"2 db kézszobrot rendeltem a barátom névnapjára, rajta a nevével, de nem az ő neve szerepel rajta. Kifizettem a termékeket és sajnos utána vettem észre. Küldenének helyette másik terméket Mihály Laci névvel?
+",complaint,100.00%,"[('kézszobrot', 'PRODUCT'), ('barátom', 'GENDERROLE'), ('névnapjára', 'OCCASION'), ('termékeket', 'GENDERROLE')]","['db', 'kézszobor', 'barát', 'névnap', 'név', 'név', 'termék', 'ész', 'termék', 'mihály', 'laci', 'név']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Rendeltem egy rózsamacit, de a színe mégsem tetszik. Szeretném, ha kicserélnétek fehér színűre piros helyett!”
+",order,97.59%,"[('rózsamacit', 'PRODUCT'), ('fehér', 'PRODUCTCOLOR'), ('piros', 'PRODUCTCOLOR'), ('”', 'PRODUCT')]","['rózsamacit', 'szín', 'fehér', 'színű', 'piros']","[{'name': 'information', 'percentage': '0.27%'}, {'name': 'order_modification', 'percentage': '0.29%'}, {'name': 'complaint', 'percentage': '1.85%'}]"
+"10 közepes rózsamacit rendeltem, de mégis a nagyobb tetszik. Kérhetném a rendelésem módosítását? Köszönöm!”
+",information,98.31%,"[('rózsamacit', 'PRODUCT'), ('nagyobb', 'GENDERROLE')]","['közepes', 'rózsamacit', 'rendelés', 'módosítás']","[{'name': 'order', 'percentage': '0.03%'}, {'name': 'order_modification', 'percentage': '0.26%'}, {'name': 'complaint', 'percentage': '1.39%'}]"
+"3 db páros ágyneműt rendeltem , de szeretném kicserélni az egyiket egy romantikus kézszoborra. Kérhetném a rendelésem módosítását? Köszönöm!”
+",order,61.83%,"[('páros', 'PRODUCTCOLOR'), ('ágyneműt', 'PRODUCT'), ('kézszoborra', 'PRODUCT')]","['db', 'páros', 'ágynemű', 'egyik', 'romantikus', 'kézszobor', 'rendelés', 'módosítás']","[{'name': 'information', 'percentage': '6.68%'}, {'name': 'order_modification', 'percentage': '5.58%'}, {'name': 'complaint', 'percentage': '25.91%'}]"
+"Kérhetném, hogy a szettben csak rózsaszín napelemes lampion legyen?
+",information,100.00%,"[('szettben', 'GENDERROLE'), ('rózsaszín', 'PRODUCTCOLOR')]","['szett', 'rózsaszín', 'napelemes', 'lampion']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ma rendeltem ebből a werbshopból Pető Szilvia néven, 4570065 relésszámmal. Szeretnék a szállítási időn változtatni jövőhét szerdára. Kérhetem, a rendelésem módosítását?”
+",information,99.51%,"[('relésszámmal', 'ORDERNUMBER'), ('szállítási', 'GENDERROLE')]","['werbshop', 'pető', 'szilvia', 'név', 'relésszám', 'szállítási', 'idő', 'jövőhét', 'szerda', 'rendelés', 'módosítás']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.45%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"15 db hímzett törölközőt rendeltem és eggyel kevesebbet kaptam, de mindet kifizettem. Szeretném megkapni, elküldenétek nekem?
+",complaint,100.00%,"[('törölközőt', 'PRODUCT')]","['db', 'hímzett', 'törölköző', 'kevesebb']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Milyen színek vannak még?
+",information,100.00%,[],['szín'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen méretben vannak még?
+",information,100.00%,[],['méret'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen más terméket tudnátok ajánlani?
+",complaint,99.97%,[],"['termék', '\n']","[{'name': 'information', 'percentage': '0.03%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Lehet szálanként is vásárolni vörös rózsát?
+",information,94.08%,"[('vörös', 'PRODUCTCOLOR')]","['szálan', 'vörös', 'rózsa']","[{'name': 'order', 'percentage': '5.79%'}, {'name': 'order_modification', 'percentage': '0.03%'}, {'name': 'complaint', 'percentage': '0.10%'}]"
+"Mi illik a rózsamacihoz?
+",information,100.00%,"[('rózsamacihoz', 'GENDERROLE')]",['rózsamacihoz'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen anyagból készül a rózsamaci?
+",information,100.00%,"[('rózsamaci', 'PRODUCT')]","['anyag', 'rózsamaci', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"1db kerti törpét kaptam a 3 db helyett, de ki kellett fizetnem. Kérem vissza a pénzem.
+",complaint,99.46%,"[('3', 'GENDERROLE'), ('pénzem', 'GENDERROLE')]","['kerti', 'törpe', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '0.51%'}]"
+"Allergiásoknak ártalmas/ajándékozható?
+",information,100.00%,[],"['allergiás', 'ártalmas/ajándékozható', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"1db kerti törpét kaptam a 3 db helyett és nem jó a mérete sem.
+",complaint,99.84%,"[('3', 'GENDERROLE')]","['kerti', 'törpe', 'méret', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.16%'}]"
+"Érdekelne, hogy honnan származik a rózsamaci?
+",information,100.00%,"[('rózsamaci', 'PRODUCT')]","['rózsamaci', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"1db kerti törpét kaptam a 3 db helyett, eltört szállításnál, de ki kellett fizetnem. Kérem vissza a pénzem.
+",complaint,99.46%,"[('3', 'GENDERROLE'), ('pénzem', 'GENDERROLE')]","['kerti', 'törpe', 'db', 'eltört', 'szállítás', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '0.51%'}]"
+"Óvodába szeretnék 30 kisméretű rózsamacit rendelni. Mikorra várható a kiszállítás?
+",information,99.95%,"[('kisméretű', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT')]","['óvoda', 'kisméretű', 'rózsamacit', 'várható', 'kiszállítás']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.05%'}]"
+"Elmosódott felirattal kaptam meg a bögréket. Kérem vissza az árukat.
+",complaint,98.64%,"[('bögréket', 'GENDERROLE'), ('árukat', 'GENDERROLE')]","['elmosódott', 'felirat', 'bögrék', 'áru']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.03%'}, {'name': 'order_modification', 'percentage': '1.33%'}]"
+"Óvodába szeretnék 30 kisméretű rózsamacit rendelni. Kérhetem a csomag mielőbbi kiszállítását?
+",information,98.20%,"[('kisméretű', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT')]","['óvoda', 'kisméretű', 'rózsamacit', 'csomag', 'mielőbbi', 'kiszállítás']","[{'name': 'order', 'percentage': '1.74%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.07%'}]"
+"Nagyon tetszik, hogy rózsákból van összeállítva a rózsamaci. Olyan romantikus. Küldenétek kettő rózsaszínt nagyméretben és egy arany színű közepeset? Köszönöm!
+",order,99.71%,"[('rózsamaci', 'PRODUCT'), ('arany', 'PRODUCTCOLOR')]","['rózsák', 'rózsamaci', 'romantikus', 'küldenét', 'rózsaszín', 'nagyméret', 'arany', 'színű', 'közepes']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.14%'}, {'name': 'complaint', 'percentage': '0.14%'}]"
+"Azt találtam ki, hogy rózsamacikkal, piros lufikkal és papírszívecskékkel díszítem fel a hálószobánkat Valentin-napra.
+",order,99.67%,"[('piros', 'PRODUCTCOLOR'), ('hálószobánkat', 'GENDERROLE'), ('Valentin-napra', 'PRODUCT')]","['rózsamacikkal', 'piros', 'lufi', 'papírszívecske', 'hálószoba', 'valentin-napra']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.32%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Nagyon különleges macit láttam a webshopotokban. Egyből beleszerettem!
+",order,99.94%,"[('webshopotokban', 'GENDERROLE')]","['különleges', 'maci', 'webshopot', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.06%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A legnagyobb és a legkisebb méretben rendelnék tőletek rózsamacit.
+",order,100.00%,"[('legnagyobb', 'GENDERROLE'), ('legkisebb', 'GENDERROLE'), ('rózsamacit', 'PRODUCT')]","['nagy', 'kis', 'méret', 'tőletik', 'rózsamaci']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Édesanyám látott valahol egy arany színű rózsamacit és annyira megtetszett neki, hogy azóta is mondja, de nem meri megvenni. Kérlek, küldjetek 3 arany színű rózsamacit, mind a 3 féle méretben. Köszönöm!
+",unknown intent,100.00%,"[('arany', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT'), ('arany', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT')]","['édesanya', 'arany', 'színű', 'rózsamacit', 'arany', 'színű', 'rózsamacit', 'méret']","[{'name': 'unknown intent', 'percentage': '100.00%'}]"
+"A kislányom rózsamacit szeretne ajándékozni a nagymamájának a születésnajára.
+",order,99.99%,"[('kislányom', 'GENDERROLE'), ('rózsamacit', 'PRODUCT'), ('nagymamájának', 'GENDERROLE'), ('születésnajára', 'OCCASION')]","['kislány', 'rózsamacit', 'nagymama', 'születésna']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A sötétkék a kedvenc színem. Tudnátok sötétkék színben rózsamacit küldeni? Köszönöm!
+",order,93.83%,"[('sötétkék', 'PRODUCTCOLOR'), ('kedvenc', 'GENDERROLE'), ('színem', 'PRODUCT'), ('sötétkék', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT')]","['sötétkék', 'kedvenc', 'szín', 'sötétkék', 'szín', 'rózsamaci']","[{'name': 'information', 'percentage': '0.06%'}, {'name': 'order_modification', 'percentage': '4.95%'}, {'name': 'complaint', 'percentage': '1.17%'}]"
+"Vennék a feleségemnek egy rózsamacit, valami szép nőies színben, díszcsomagolásban és tegyetek mellé egy képeslapot,valami kedves szöveggel. Rátok bízom! Köszönöm!
+",order,98.63%,"[('feleségemnek', 'GENDERROLE'), ('rózsamacit', 'PRODUCT'), ('képeslapot', 'PRODUCT')]","['feleség', 'rózsamacit', 'szép', 'nőies', 'szín', 'díszcsomagolás', 'tegyet', 'képeslap', 'kedves', 'szöveg']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '1.37%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Házassági évfordulónk lesz és arra gondoltam, meglepem a feleségem egy 14 szálas gyönyör rózsacsokorral és egy piros rózsamacival.
+",order,99.74%,"[('Házassági évfordulónk', 'OCCASION'), ('feleségem', 'GENDERROLE'), ('rózsacsokorral', 'PRODUCT'), ('piros', 'PRODUCTCOLOR'), ('rózsamacival', 'PRODUCT')]","['házassági', 'évforduló', 'feleség', 'szálas', 'gyönyör', 'rózsacsokor', 'piros', 'rózsamaci']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.25%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Kérlek, minél hamarabb küldjétek a megrendelésem!
+",order,100.00%,[],['megrendelés'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kérek figyelmeztetést, mielőtt érkezne a csomag!
+",order,100.00%,[],"['figyelmeztetés', 'csomag']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kérhetem, hogy a rendelésem után írjátok rá a csomagomra, hogy: törékeny? Köszönöm!
+",information,97.31%,"[('csomagomra', 'GENDERROLE')]","['rendelés', 'csomag', 'törékeny']","[{'name': 'order', 'percentage': '0.77%'}, {'name': 'order_modification', 'percentage': '0.23%'}, {'name': 'complaint', 'percentage': '1.69%'}]"
+"Fizethetem a rózsamacikat bankkártyával?
+",information,99.98%,"[('rózsamacikat', 'GENDERROLE')]","['rózsamaci', 'bankkártya', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.02%'}]"
+"Kislányom első születésnapjára rendeltem egy barna rózsamacit a talpán Szeretünk! Apa és Anya felirattal, de mikor megérkezett, nem az a szöveg került rá! Kérem, küldjetek egyet a jó szöveggel!
+",information,50.43%,"[('Kislányom', 'GENDERROLE'), ('születésnapjára', 'OCCASION'), ('barna', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT'), ('talpán', 'GENDERROLE'), ('Apa', 'PRODUCT'), ('felirattal', 'PRODUCT'), ('szöveg', 'GENDERROLE')]","['kislány', 'első', 'születésnap', 'barna', 'rózsamaci', 'talp', 'apa', 'anya', 'felirat', 'szöveg', 'egy', 'szöveg']","[{'name': 'order', 'percentage': '13.35%'}, {'name': 'order_modification', 'percentage': '7.36%'}, {'name': 'complaint', 'percentage': '28.86%'}]"
+"Ajándékba vettem egy rózsamacit a webshopotokból, de koszosan kaptam kézhez. Kicserélnétek?
+",complaint,99.98%,"[('rózsamacit', 'PRODUCT')]","['ajándék', 'rózsamaci', 'webshopot', 'koszos', 'kéz', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}]"
+"Leszakadt a rózsamaci egyik füle, a másik pedig félig. Kérek helyette egy másikat!
+",complaint,100.00%,"[('rózsamaci', 'PRODUCT'), ('másik', 'GENDERROLE')]","['rózsamaci', 'fül', 'másik']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Elengedett a varrás a rózsamaci hasán. Ehelyett kérek egy hibátlant!
+",complaint,99.99%,"[('varrás', 'GENDERROLE'), ('rózsamaci', 'PRODUCT')]","['varrás', 'rózsamaci', 'has', 'hibátlan', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Olyan, mintha a rózsamaci alatt domestossal letörölték volna a polcot, mert foltos, pöttyös. Vigyétek vissza!
+",complaint,99.99%,"[('rózsamaci', 'PRODUCT'), ('polcot', 'GENDERROLE')]","['rózsamaci', 'domestos', 'polc', 'foltos', 'pöttyös', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"Sok helyen ki van szakadva a rózsamaci. Inkább kézszobrot kérek helyette!
+",order,99.00%,"[('rózsamaci', 'PRODUCT'), ('kézszobrot', 'PRODUCT')]","['hely', 'rózsamaci', 'kézszobor', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.28%'}, {'name': 'complaint', 'percentage': '0.72%'}]"
+"Ma reggel érkezett meg a csomagom és hiányzik belőle a réz tálca, pedig ezt vártam a legjobban. Kérlek, mihamarabb küldjétek!
+",complaint,99.62%,"[('csomagom', 'GENDERROLE'), ('legjobban', 'GENDERROLE')]","['csomag', 'réz', 'tálca', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.38%'}]"
+"2 éjjeli szekrényt rendeltem a hálószobába, de az egyik nem érkezett meg és nem is kaptam értesítést róla. Kérlek, teljesítsétek a megrendelésem!
+",complaint,98.45%,"[('hálószobába', 'GENDERROLE'), ('róla', 'PRODUCT')]","['éjjeli', 'szekrény', 'hálószoba', 'értesítés', 'megrendelés']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '1.55%'}]"
+"Több terméket is rendeltem a webshopotokból, de nem kaptam meg a csomagot.
+",complaint,99.71%,"[('webshopotokból', 'GENDERROLE'), ('csomagot', 'PRODUCT')]","['termék', 'webshopot', 'csomag']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.29%'}]"
+"Házassági évfordulónkra rendeltem egy hatalmas, arany rózsamacit szívecskés glitterekkel és egy örökrózsával, de megrepedt az örökrózsa doboza. Kérem vissza a pénzem!
+",complaint,99.38%,"[('Házassági évfordulónkra', 'OCCASION'), ('hatalmas', 'PRODUCTSIZE'), ('arany', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT'), ('glitterekkel', 'GENDERROLE'), ('örökrózsával', 'PRODUCT'), ('örökrózsa', 'PRODUCT')]","['házassági', 'évfordulónkra', 'hatalmas', 'arany', 'rózsamacit', 'szívecskés', 'glitterek', 'örökrózsa', 'örökrózsa', 'doboza', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.04%'}, {'name': 'order_modification', 'percentage': '0.58%'}]"
+"Rendeltem tőletek egy nyári tájképet, de valszínűleg szállítás közben beszakadt a kép. Kérek egy hibátlan festményt!
+",complaint,99.90%,"[('nyári', 'PRODUCTCOLOR'), ('kép', 'GENDERROLE'), ('hibátlan', 'PRODUCTCOLOR')]","['tőlet', 'nyári', 'tájkép', 'valszínűleg', 'szállítás', 'kép', 'hibátlan', 'festmény', '\n']","[{'name': 'information', 'percentage': '0.10%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Nem voltak megfelelően becsomagolva a tányérok és eltörtek. A sógornőm születésnapjára vásároltam és nagyon tetszettek, ezért ugyanezekből a tányérokból kérek és kérlek, figyeljetek csomagolásra!
+",complaint,99.99%,"[('tányérok', 'GENDERROLE'), ('eltörtek', 'PRODUCT'), ('születésnapjára', 'OCCASION'), ('tányérokból', 'GENDERROLE')]","['megfelelő', 'tányér', 'sógornő', 'születésnap', 'tányérok', 'csomagolás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"Nincsenek szépen kidolgozva a kézzsobrok. Jó minőségben kérek helyettük!
+",complaint,100.00%,"[('kézzsobrok', 'GENDERROLE'), ('minőségben', 'PRODUCT')]","['szép', 'kézzsobr', 'minőség']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Hiányzik az egyik polc a konyhaszekrényből. Kérlek, pótoljátok a hiányt!
+",complaint,100.00%,"[('egyik', 'PRODUCTCOLOR'), ('konyhaszekrényből', 'GENDERROLE')]","['polc', 'konyhaszekrény', 'hiány']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Karcosan érkezett a nappali tükör és a kerete is meg van repedve sajnos. Nagyon bosszantó! Utaljátok vissza a pénzem!
+",complaint,99.97%,"[('tükör', 'PRODUCT')]","['karcos', 'nappali', 'tükör', 'keret', 'bosszantó', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.03%'}]"
+"Elszakadt több helyen is a rózsa a rózsamacin. Küldjetek ehelyett másikat, vagy, ha nincs raktáron, kérem vissza a pénzem!
+",complaint,93.36%,"[('rózsa', 'GENDERROLE'), ('rózsamacin', 'GENDERROLE'), ('raktáron', 'PRODUCT')]","['hely', 'rózsa', 'rózsamacin', 'raktár', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '1.36%'}, {'name': 'order_modification', 'percentage': '5.27%'}]"
+"Egyik termék sem az, amit én rendeltem. Nagy csalódás! Nem rendelek tőletek többször!
+",complaint,100.00%,"[('Nagy', 'PRODUCTSIZE')]","['termék', 'csalódás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Másféle képkeretet kaptam, mint amit rendeltem. Nem tetszik! Kérem vissza az árát!
+",complaint,99.99%,[],"['másféle', 'képkeret', 'ár']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Bejelöltem a bankkártyás fizetést, a futárnál mégsem lehetett azzal fizetni!
+",complaint,100.00%,"[('bankkártyás', 'GENDERROLE'), ('fizetést', 'PRODUCT')]","['bankkártyás', 'fizetés', 'futár', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Nem védőcsomagolàsban kaptam a rendelésem!
+",complaint,99.96%,[],"['védőcsomagolàsban', 'rendelés']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.04%'}]"
+"Elfelejtettétek a díszcsomagolást!
+",complaint,100.00%,[],['díszcsomagolás'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"A felirat nem olvasható! Kérem vissza a pénzem!
+",complaint,99.39%,[],"['felirat', 'olvasható', 'pénz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.04%'}, {'name': 'order_modification', 'percentage': '0.58%'}]"
+"A felirat nem került rá! Elrontottátok a meglépetésem!
+",order,68.44%,[],"['felirat', 'meglépetés']","[{'name': 'information', 'percentage': '0.10%'}, {'name': 'order_modification', 'percentage': '11.14%'}, {'name': 'complaint', 'percentage': '20.32%'}]"
+"Akciós volt a térkép, mégis teljes árat kellett fizetnem!
+",complaint,99.99%,"[('térkép', 'GENDERROLE')]","['akciós', 'térkép', 'ár', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"Többször is lehetne kettőt fizet, hármat vihet akció!
+",complaint,99.99%,[],['akció'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"Miért van ingyenes kiszállítás, ha nem is az?
+",order,82.25%,[],"['ingyenes', 'kiszállítás', '\n']","[{'name': 'information', 'percentage': '0.05%'}, {'name': 'order_modification', 'percentage': '17.35%'}, {'name': 'complaint', 'percentage': '0.34%'}]"
+"Szeretném visszavinni ezt a kabátot, kérem.
+",complaint,99.81%,[],['kabát'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.19%'}]"
+"Nem, ma nem. Csak a cserét szeretném, kérem.
+",complaint,96.56%,[],['csere'],"[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order', 'percentage': '0.65%'}, {'name': 'order_modification', 'percentage': '2.77%'}]"
+"Szeretném kicserélni ezt a ruhát.
+",complaint,100.00%,"[('ruhát', 'PRODUCT')]",['ruha'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Ez a ruha nem áll jól.
+",complaint,99.87%,"[('ruha', 'GENDERROLE')]","['ruha', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.13%'}]"
+"Nem szeretném megtartani ezt a ruhát.
+",complaint,100.00%,"[('ruhát', 'PRODUCT')]",['ruha'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Visszahoztam ezt a ruhát, hogy kicseréljem.
+",complaint,100.00%,"[('ruhát', 'PRODUCT'), ('kicseréljem', 'PRODUCT')]","['ruha', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Szeretném visszaadni ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Vissza szeretném adni ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Vissza kell adnom ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Nem, köszönöm. A pénzvisszatérítés is megfelel.
+",complaint,98.80%,"[('megfelel', 'PRODUCT')]","['pénzvisszatérítés', '\n']","[{'name': 'information', 'percentage': '0.50%'}, {'name': 'order', 'percentage': '0.11%'}, {'name': 'order_modification', 'percentage': '0.59%'}]"
+"Nem akarom megtartani ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Szeretném visszavinni ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Visszavihetem ezt a rádiót, kérem?
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Kicserélhetem ezt a DVD-lejátszót?
+",complaint,98.28%,"[('DVD-lejátszót', 'PRODUCT')]","['dvd-lejátszót', '\n']","[{'name': 'information', 'percentage': '0.04%'}, {'name': 'order', 'percentage': '1.10%'}, {'name': 'order_modification', 'percentage': '0.58%'}]"
+"Szeretném kicserélni ezt a DVD-lejátszót.
+",complaint,99.08%,"[('DVD-lejátszót', 'GENDERROLE')]",['dvd-lejátszót'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '0.91%'}]"
+"Ezt a DVD-lejátszót szeretném kicserélni, kérem.
+",complaint,96.54%,"[('DVD-lejátszót', 'GENDERROLE')]",['dvd-lejátszó'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.43%'}, {'name': 'order_modification', 'percentage': '3.02%'}]"
+"Szeretném visszakapni a pénzemet a szállításért.
+",complaint,99.94%,"[('pénzemet', 'GENDERROLE'), ('szállításért', 'GENDERROLE')]","['pénz', 'szállítás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.06%'}]"
+"Kérem vissza a pénzemet.
+",complaint,100.00%,"[('pénzemet', 'GENDERROLE')]",['pénz'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Szeretnék visszaküldeni egy terméket.
+",order_modification,50.30%,[],['termék'],"[{'name': 'information', 'percentage': '2.68%'}, {'name': 'order', 'percentage': '19.26%'}, {'name': 'complaint', 'percentage': '27.76%'}]"
+"Szeretném visszaadni ezt a mobiltelefont.
+",complaint,99.98%,"[('mobiltelefont', 'GENDERROLE')]",['mobiltelefon'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}]"
+"Visszaadok valamit, amit tegnap vásároltam.
+",complaint,100.00%,[],['\n'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Visszaviszek egy mobiltelefont.
+",complaint,85.00%,[],['mobiltelefon'],"[{'name': 'information', 'percentage': '2.07%'}, {'name': 'order', 'percentage': '11.94%'}, {'name': 'order_modification', 'percentage': '0.99%'}]"
+"Vissza kell adnom ezt a mobiltelefont, amit nemrég vásároltam.
+",complaint,100.00%,"[('mobiltelefont', 'PRODUCT')]","['mobiltelefon', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Mi van akkor, ha a kiválasztott termék nincs raktáron?
+",order,97.27%,[],"['kiválasztott', 'termék', 'raktár', '\n']","[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order_modification', 'percentage': '2.64%'}, {'name': 'complaint', 'percentage': '0.08%'}]"
+"Megértem. Nagyon tetszik a kabát dizájnja. Van lehetőségem cserére?
+",information,100.00%,"[('kabát', 'GENDERROLE')]","['kabát', 'dizájn', 'lehetőség', 'csere']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerül?
+",information,100.00%,[],"['mennyi', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ez túl nagy. Van kis méretű?
+",information,99.96%,"[('nagy', 'PRODUCTSIZE')]","['kis', 'méretű', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Igen, az tetszik. Szürke színben is van?
+",complaint,96.21%,[],"['szürke', 'szín', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '3.79%'}]"
+"Ez jól hangzik. Mennyibe kerül egy?
+",information,100.00%,[],['\n'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerülnének a rózsák?
+",information,100.00%,"[('rózsák', 'GENDERROLE')]","['mennyi', 'rózsa', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerülnek majd a rózsák?
+",information,100.00%,"[('rózsák', 'GENDERROLE')]","['mennyi', 'rózsa', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van erre garancia?
+",information,100.00%,[],['garancia'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van valamelyik dobozon táncoló figura?
+",information,100.00%,[],"['doboz', 'táncoló', 'figura']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Érdeklődnék, hogy van-e erre valamilyen garancia?
+",information,97.81%,[],['garancia'],"[{'name': 'order', 'percentage': '1.74%'}, {'name': 'order_modification', 'percentage': '0.03%'}, {'name': 'complaint', 'percentage': '0.42%'}]"
+"Szeretem a digitális Barbie-t! Mennyibe kerül?
+",complaint,64.33%,"[('digitális', 'PRODUCTCOLOR')]","['digitális', 'barbie-t', 'mennyi', '\n']","[{'name': 'information', 'percentage': '32.84%'}, {'name': 'order', 'percentage': '2.10%'}, {'name': 'order_modification', 'percentage': '0.72%'}]"
+"Holnapra kell kiszállítani. Lehetséges ez?
+",order,99.96%,[],"['holnap', 'lehetséges', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.03%'}]"
+"Adnak készpénzes kedvezményt?
+",information,100.00%,"[('Adnak', 'PRODUCTSIZE')]","['készpénzes', 'kedvezmény']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Adnak hitelt?
+",information,99.95%,[],['hitel'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.05%'}]"
+"Készpénzzel kell fizetnem?
+",information,93.50%,[],"['készpénz', '\n']","[{'name': 'order', 'percentage': '0.89%'}, {'name': 'order_modification', 'percentage': '0.03%'}, {'name': 'complaint', 'percentage': '5.59%'}]"
+"Mennyibe kerülnek ezek?
+",information,100.00%,[],['\n'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Adna nekem kedvezményt, ha kettőt veszek?
+",order_modification,60.01%,[],"['kedvezmény', '\n']","[{'name': 'information', 'percentage': '0.15%'}, {'name': 'order', 'percentage': '38.33%'}, {'name': 'complaint', 'percentage': '1.51%'}]"
+"Tudna nekem egy ajánlatot tenni?
+",information,98.76%,"[('ajánlatot', 'PRODUCTSIZE')]",['ajánlat'],"[{'name': 'order', 'percentage': '1.21%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.02%'}]"
+"Mennyi az ár a kedvezmény után?
+",information,96.40%,[],"['ár', 'kedvezmény']","[{'name': 'order', 'percentage': '0.70%'}, {'name': 'order_modification', 'percentage': '0.32%'}, {'name': 'complaint', 'percentage': '2.58%'}]"
+"Szépek, de inkább pamut nadrágot szeretnék, ha van.
+",order,96.96%,"[('pamut', 'PRODUCTCOLOR')]","['szép', 'pamut', 'nadrág']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '3.03%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"15 db hímzett törölközőt rendeltem és 1 nem rózsaszín. Kérem cseréljék ki a tévesen küldöttet.
+",complaint,100.00%,"[('törölközőt', 'PRODUCT'), ('rózsaszín', 'PRODUCTCOLOR'), ('tévesen', 'GENDERROLE')]","['db', 'hímzett', 'törölköző', 'rózsaszín', 'téves', 'küldött']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Szükségem van egy pulóver megvásárlására.
+",order,99.01%,"[('pulóver', 'PRODUCTSIZE'), ('megvásárlására', 'PRODUCT')]","['szükség', 'pulóver', 'megvásárlás']","[{'name': 'information', 'percentage': '0.70%'}, {'name': 'order_modification', 'percentage': '0.23%'}, {'name': 'complaint', 'percentage': '0.06%'}]"
+"Egy pulóvert szeretnék vásárolni.
+",order,100.00%,"[('pulóvert', 'PRODUCTSIZE')]",['pulóver'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szükségem van néhány virágra a feleségemnek. Ma van a születésnapja.
+",order,100.00%,"[('virágra', 'PRODUCT'), ('feleségemnek', 'GENDERROLE'), ('születésnapja', 'OCCASION')]","['szükség', 'virág', 'feleség', 'születésnap']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A feleségemnek ma van a születésnapja. Szükségem van egy kis virágra.
+",information,56.86%,"[('feleségemnek', 'GENDERROLE'), ('születésnapja', 'OCCASION'), ('virágra', 'PRODUCT')]","['feleség', 'születésnap', 'szükség', 'kis', 'virág']","[{'name': 'order', 'percentage': '31.29%'}, {'name': 'order_modification', 'percentage': '7.77%'}, {'name': 'complaint', 'percentage': '4.08%'}]"
+"Virágot kell vennem a feleségemnek.
+",information,98.63%,"[('feleségemnek', 'GENDERROLE')]","['virág', 'feleség']","[{'name': 'order', 'percentage': '1.37%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretnék virágot venni a feleségem születésnapjára.
+",order,100.00%,"[('virágot', 'PRODUCT'), ('feleségem', 'GENDERROLE'), ('születésnapjára', 'OCCASION')]","['virág', 'feleség', 'születésnap']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ma van a feleségem születésnapja. Szeretnék neki virágot venni.
+",order,100.00%,"[('feleségem', 'GENDERROLE'), ('születésnapja', 'OCCASION'), ('virágot', 'PRODUCT')]","['feleség', 'születésnap', 'virág']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Bocsásson meg. Egy régi zenedobozra van szükségem.
+",complaint,97.99%,"[('régi', 'PRODUCTCOLOR')]","['régi', 'zenedoboz', 'szükség']","[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order', 'percentage': '0.03%'}, {'name': 'order_modification', 'percentage': '1.96%'}]"
+"Egy régi zenedobozt szeretnék vásárolni.
+",order,100.00%,"[('régi', 'PRODUCTCOLOR')]","['régi', 'zenedoboz']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Régi zenedobozt keresek.
+",information,91.97%,[],"['régi', 'zenedoboz', '\n']","[{'name': 'order', 'percentage': '8.03%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Szükségem van egy serpenyőre.
+",order,98.01%,[],"['szükség', 'serpenyő']","[{'name': 'information', 'percentage': '0.29%'}, {'name': 'order_modification', 'percentage': '1.51%'}, {'name': 'complaint', 'percentage': '0.19%'}]"
+"Szeretnék egy serpenyőt vásárolni.
+",order,62.23%,"[('serpenyőt', 'PRODUCTSIZE')]",['serpenyő'],"[{'name': 'information', 'percentage': '37.03%'}, {'name': 'order_modification', 'percentage': '0.45%'}, {'name': 'complaint', 'percentage': '0.29%'}]"
+"Szeretnék néhány névjegykártyát vásárolni.
+",order,100.00%,"[('névjegykártyát', 'PRODUCT')]",['névjegykártya'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Új névjegykártyákat szeretnék rendelni.
+",order,99.98%,[],['névjegykártyá'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mindjárt elfogynak a névjegykártyáim. Szükségem van néhány új névjegykártyára.
+",complaint,74.00%,"[('névjegykártyáim', 'GENDERROLE')]","['névjegykártya', 'szükség', 'névjegykártya']","[{'name': 'information', 'percentage': '0.02%'}, {'name': 'order', 'percentage': '23.03%'}, {'name': 'order_modification', 'percentage': '2.95%'}]"
+"Egy új hűtőt szeretnék venni.
+",order,100.00%,[],['hűtő'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Nagyon szeretném megvenni ezt a televíziót.
+",order,99.99%,"[('televíziót', 'GENDERROLE')]",['televízió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretném megvenni ezt a tévét.
+",order,99.97%,"[('tévét', 'GENDERROLE')]",['tévé'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Szeretném megvásárolni ezt a televíziót.
+",order,99.95%,"[('televíziót', 'GENDERROLE')]",['televízió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Azt hiszem, inkább kék színben szeretném.
+",order_modification,100.00%,"[('kék', 'PRODUCTCOLOR')]","['kék', 'szín']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Pontosan ez nem tetszik. Más színben jobban szeretném.
+",information,97.22%,"[('Más', 'PRODUCTCOLOR')]","['pontos', 'szín']","[{'name': 'order', 'percentage': '0.91%'}, {'name': 'order_modification', 'percentage': '0.87%'}, {'name': 'complaint', 'percentage': '1.00%'}]"
+"Évfordulónkra rendeltem térképet, amin el lett írva a barátom neve, úgyhogy szeretném, ha küldenétek egy másikat.”
+",order,94.97%,"[('térképet', 'PRODUCT'), ('barátom', 'GENDERROLE'), ('másikat', 'PRODUCT')]","['évfordulónkra', 'térkép', 'barát', 'név']","[{'name': 'information', 'percentage': '1.82%'}, {'name': 'order_modification', 'percentage': '1.37%'}, {'name': 'complaint', 'percentage': '1.84%'}]"
+"Visszaviszem ezt a rádiót.
+",complaint,100.00%,[],['rádió'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Mennyi az adó?
+",information,73.37%,[],"['adó', '\n']","[{'name': 'order', 'percentage': '16.61%'}, {'name': 'order_modification', 'percentage': '2.50%'}, {'name': 'complaint', 'percentage': '7.52%'}]"
+"Nem. Csak a pénzemet szeretném visszakapni.
+",complaint,100.00%,"[('pénzemet', 'GENDERROLE')]",['pénz'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Nem, köszönöm. Csak a pénzvisszatérítést kérem.
+",complaint,99.65%,[],['pénzvisszatérítés'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.35%'}]"
+"Köszönöm, de csak a pénzvisszatérítést kérem.
+",complaint,99.87%,[],['pénzvisszatérítés'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.13%'}]"
+"Csak adja vissza a pénzt, kérem.
+",complaint,99.99%,"[('pénzt', 'GENDERROLE')]",['pénz'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"Mennyi ideig tart a kiszállítása?
+",information,100.00%,"[('kiszállítása', 'GENDERROLE')]","['idő', 'kiszállítás', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerül?
+",information,100.00%,[],"['mennyi', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerülnek a rózsák?
+",information,100.00%,"[('rózsák', 'GENDERROLE')]","['mennyi', 'rózsa', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van rá garancia?
+",information,100.00%,[],['garancia'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van-e garancia erre a zenedobozra?
+",information,100.00%,"[('zenedobozra', 'GENDERROLE')]","['garancia', 'zenedoboz']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Még egy utolsó kérdés: Adnak-e garanciát a dobozhoz?
+",complaint,50.69%,"[('dobozhoz', 'GENDERROLE')]","['kérdés', 'garancia', 'dobozhoz', '\n']","[{'name': 'information', 'percentage': '49.06%'}, {'name': 'order', 'percentage': '0.23%'}, {'name': 'order_modification', 'percentage': '0.02%'}]"
+"Ki tudja szállítani holnap?
+",information,100.00%,[],[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Tudok készpénzzel fizetni?
+",information,100.00%,[],['készpénz'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Fizethetek csekkel?
+",information,99.99%,[],"['csekkel', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Fizethetek hitelkártyával?
+",information,99.94%,[],"['hitelkártya', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.05%'}]"
+"Elfogadja a Visa kártyát?
+",information,100.00%,[],"['visa', 'kártya', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerül ez?
+",information,100.00%,[],['\n'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kaphatok kedvezményt?
+",information,100.00%,[],['kedvezmény'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Csak Budapesre és környékére szállítatok?
+",information,100.00%,"[('Csak', 'PRODUCTCOLOR')]","['budapes', 'környék', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Az egész ország területére szállítatok?
+",information,100.00%,[],"['ország', 'terület', 'szállítat', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Rosette 1-es kovácsoltvas mennyezeti lámpát vettem és érdekelne, hogy Karcagra is szállítatok?
+",information,50.21%,"[('mennyezeti', 'PRODUCTCOLOR')]","['1-es', 'kovácsoltvas', 'mennyezeti', 'lámpa', 'karcag', '\n']","[{'name': 'order', 'percentage': '1.20%'}, {'name': 'order_modification', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '48.54%'}]"
+"A rendelésemet inkább Érden szeretném átvenni.
+",complaint,93.26%,"[('Érden', 'PRODUCTSIZE')]","['rendelés', 'érd']","[{'name': 'information', 'percentage': '4.96%'}, {'name': 'order', 'percentage': '1.77%'}, {'name': 'order_modification', 'percentage': '0.01%'}]"
+"A szállítási címen szeretnék módosítani.
+",order_modification,100.00%,"[('szállítási', 'GENDERROLE')]","['szállítási', 'cím']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Lecsorbult a bögreszettből 5 db is. Cseéljétek ki nekem egy másik sötétzöld kávésbögre szettre!
+",complaint,100.00%,"[('bögreszettből', 'GENDERROLE'), ('másik', 'PRODUCTCOLOR'), ('sötétzöld', 'PRODUCTCOLOR')]","['bögreszett', 'db', 'cseéljétek', 'sötétzöld', 'kávésbög', 'szett']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Egyet rendeltem, de módosítani szeretném 3-ra.
+",order_modification,99.23%,[],['egy'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.47%'}, {'name': 'complaint', 'percentage': '0.29%'}]"
+"Szettet rendeltem, de 1-re szeretném módosítani.
+",order_modification,97.50%,[],['szett'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.42%'}, {'name': 'complaint', 'percentage': '2.08%'}]"
+"Inkbb kétszemélyes ágynemhuzat szeretnék 2 db egyszemélyes ágynemhuzat helyett.
+",order,94.83%,[],"['inkbb', 'kétszemélyes', 'ágynemhuzat', 'db', 'egyszemélyes', 'ágynemhuzat']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '5.17%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"A szállítási címen és az átvevő nevén is szeretnék változtatni, mert nem tudom megvárni a csomagot.
+",order_modification,94.04%,"[('szállítási', 'PRODUCTCOLOR'), ('csomagot', 'GENDERROLE')]","['szállítási', 'cím', 'átvevő', 'név', 'csomag']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '5.93%'}, {'name': 'complaint', 'percentage': '0.03%'}]"
+"Keress rá a diszdobozos macikra, látni akarom a kínálatot!
+",information,83.35%,"[('diszdobozos', 'GENDERROLE')]","['diszdobozos', 'macik', 'kínálat']","[{'name': 'order', 'percentage': '10.63%'}, {'name': 'order_modification', 'percentage': '1.49%'}, {'name': 'complaint', 'percentage': '4.53%'}]"
+"Mutasd,  milyen színben vannak a rózsacsokrok, egy oldalon az összeset szeretném látni!
+",complaint,99.94%,"[('rózsacsokrok', 'GENDERROLE'), ('oldalon', 'PRODUCTSIZE')]","['szín', 'rózsacsokr', 'oldal', 'összes']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.06%'}]"
+"Látni szeretném az egyedi ajándékokat!
+",information,88.49%,"[('egyedi', 'PRODUCTCOLOR')]","['egyedi', 'ajándék']","[{'name': 'order', 'percentage': '6.41%'}, {'name': 'order_modification', 'percentage': '0.70%'}, {'name': 'complaint', 'percentage': '4.39%'}]"
+"Mutasd az egyedi ajándékokat!
+",information,88.54%,"[('egyedi', 'PRODUCTCOLOR')]","['egyedi', 'ajándék']","[{'name': 'order', 'percentage': '6.39%'}, {'name': 'order_modification', 'percentage': '0.70%'}, {'name': 'complaint', 'percentage': '4.37%'}]"
+"Meg akarom nézni a kis méretű rózsamacikat!
+",information,90.07%,[],"['kis', 'méretű', 'rózsamaci']","[{'name': 'order', 'percentage': '5.94%'}, {'name': 'order_modification', 'percentage': '0.61%'}, {'name': 'complaint', 'percentage': '3.39%'}]"
+"Megnézném a kis méretű rózsamacikat.
+",information,91.94%,[],"['kis', 'méretű', 'rózsamaci']","[{'name': 'order', 'percentage': '4.57%'}, {'name': 'order_modification', 'percentage': '0.32%'}, {'name': 'complaint', 'percentage': '3.18%'}]"
+"Keress rá a kis méretű rózsamacikra!
+",information,90.64%,[],"['kis', 'méretű', 'rózsamacik']","[{'name': 'order', 'percentage': '5.58%'}, {'name': 'order_modification', 'percentage': '0.59%'}, {'name': 'complaint', 'percentage': '3.20%'}]"
+"Megnézném, hogy milyen kézszobrok vannak.
+",information,79.44%,[],"['kézszobr', '\n']","[{'name': 'order', 'percentage': '8.25%'}, {'name': 'order_modification', 'percentage': '2.35%'}, {'name': 'complaint', 'percentage': '9.97%'}]"
+"Mutasd a kétszobrok fajtáit
+",complaint,99.85%,[],"['kétszobr', 'fajta']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '0.14%'}]"
+"Látni szeretném, hogy milyen kézszobrokat lehet rendelni.
+",information,73.05%,[],['kézszobr'],"[{'name': 'order', 'percentage': '9.34%'}, {'name': 'order_modification', 'percentage': '3.81%'}, {'name': 'complaint', 'percentage': '13.80%'}]"
+"Megnézném, hogy milyen kézszobrokat lehet rendelni.
+",information,73.23%,[],['kézszobr'],"[{'name': 'order', 'percentage': '9.26%'}, {'name': 'order_modification', 'percentage': '3.77%'}, {'name': 'complaint', 'percentage': '13.75%'}]"
+"Keress rá a rózsamacikra, megnézném a kéket és a pirosat!
+",information,69.83%,"[('rózsamacikra', 'GENDERROLE'), ('kéket', 'GENDERROLE')]","['rózsamacik', 'kék', 'piros']","[{'name': 'order', 'percentage': '16.81%'}, {'name': 'order_modification', 'percentage': '4.63%'}, {'name': 'complaint', 'percentage': '8.73%'}]"
+"Látni szeretném a rózsamacik közül a kéket és a pirosat
+",information,89.79%,"[('rózsamacik', 'GENDERROLE'), ('kéket', 'GENDERROLE'), ('pirosat', 'GENDERROLE')]","['rózsamacik', 'kéket', 'piros', '\n']","[{'name': 'order', 'percentage': '5.63%'}, {'name': 'order_modification', 'percentage': '1.34%'}, {'name': 'complaint', 'percentage': '3.24%'}]"
+"Mutasd a kék és a piros rótsamacikat!
+",complaint,99.75%,"[('kék', 'PRODUCTCOLOR'), ('piros', 'PRODUCTCOLOR')]","['kék', 'piros', 'rótsamaci']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.25%'}]"
+"Hogy néz ki a páros ágynemű, mutasd meg!
+",order,62.06%,"[('ágynemű', 'PRODUCT')]","['páros', 'ágynemű', '\n']","[{'name': 'information', 'percentage': '0.08%'}, {'name': 'order_modification', 'percentage': '3.10%'}, {'name': 'complaint', 'percentage': '34.76%'}]"
+"A páros ágyneműket megnézném, a képek alapján szeretnék dönteni.
+",information,67.51%,"[('ágyneműket', 'PRODUCTCOLOR'), ('képek', 'GENDERROLE')]","['páros', 'ágynemű', 'kép', 'alap']","[{'name': 'order', 'percentage': '14.60%'}, {'name': 'order_modification', 'percentage': '5.18%'}, {'name': 'complaint', 'percentage': '12.70%'}]"
+"Mutasd meg kérlek az ágyneműket!
+",complaint,99.77%,[],['ágynemű'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.23%'}]"
+"Megnézném a teljes kínálatot.
+",information,94.00%,"[('teljes', 'GENDERROLE')]",['kínálat'],"[{'name': 'order', 'percentage': '3.25%'}, {'name': 'order_modification', 'percentage': '0.22%'}, {'name': 'complaint', 'percentage': '2.53%'}]"
+"Látni szeretném a teljes kínálatot.
+",information,92.14%,"[('teljes', 'GENDERROLE')]",['kínálat'],"[{'name': 'order', 'percentage': '4.42%'}, {'name': 'order_modification', 'percentage': '0.85%'}, {'name': 'complaint', 'percentage': '2.58%'}]"
+"Keress rá az egyedi faliképekre, egyben mutasd a saját fotó posztereket is!
+",order,80.27%,"[('egyedi', 'GENDERROLE'), ('egyben', 'PRODUCTCOLOR'), ('saját', 'PRODUCTCOLOR')]","['egyedi', 'falikép', 'fotó', 'poszter', '\n']","[{'name': 'information', 'percentage': '1.42%'}, {'name': 'order_modification', 'percentage': '2.41%'}, {'name': 'complaint', 'percentage': '15.90%'}]"
+"Milyen típusú képek vannak, mutasd kérlek!
+",information,99.99%,"[('mutasd', 'PRODUCTCOLOR')]","['típusú', 'kép']","[{'name': 'order', 'percentage': '0.01%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Megnézném a fali képeket.
+",information,91.30%,"[('fali', 'GENDERROLE')]","['fali', 'kép']","[{'name': 'order', 'percentage': '5.18%'}, {'name': 'order_modification', 'percentage': '0.31%'}, {'name': 'complaint', 'percentage': '3.21%'}]"
+"Az óriás rózsamacikat nézném meg, mindet egyben egy oldalon.
+",order_modification,76.99%,"[('oldalon', 'PRODUCTSIZE')]","['óriás', 'rózsamaci', 'oldal']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.13%'}, {'name': 'complaint', 'percentage': '22.88%'}]"
+"Mutasd meg az óriási rózsamacikat!
+",complaint,99.69%,"[('óriási', 'PRODUCTCOLOR')]","['óriási', 'rózsamaci']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.31%'}]"
+"Mutasd meg, hogy milyen rózsamacik vannak, a nagy méretűek érdekelnek különösen!
+",complaint,93.95%,"[('nagy', 'PRODUCTSIZE')]","['rózsamaci', 'méretű']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '6.05%'}]"
+"Keress rá az óriás rózsamacikra!
+",information,87.85%,[],"['óriás', 'rózsamacik']","[{'name': 'order', 'percentage': '7.27%'}, {'name': 'order_modification', 'percentage': '0.75%'}, {'name': 'complaint', 'percentage': '4.12%'}]"
+"A vásárlás előtt megnézném a rózsaszín nagy méretű rózsamacit, mutasd meg!
+",complaint,77.53%,"[('vásárlás', 'GENDERROLE'), ('rózsaszín', 'GENDERROLE'), ('nagy méretű', 'PRODUCT'), ('rózsamacit', 'PRODUCT')]","['vásárlás', 'rózsaszín', 'méretű', 'rózsamacit', '\n']","[{'name': 'information', 'percentage': '0.21%'}, {'name': 'order', 'percentage': '11.21%'}, {'name': 'order_modification', 'percentage': '11.04%'}]"
+"Mielőtt a rendelek megnézném az óriás rózsamacit,mutasd meg!
+",complaint,77.53%,"[('rendelek', 'GENDERROLE'), ('rózsamacit', 'PRODUCT')]","['rendel', 'óriás', 'rózsamacit', '\n']","[{'name': 'information', 'percentage': '0.21%'}, {'name': 'order', 'percentage': '11.22%'}, {'name': 'order_modification', 'percentage': '11.04%'}]"
+"Előbb megnézném a nagy rózsamacit, utána majd eldöntöm, hogy megrendelem-e.
+",information,100.00%,"[('nagy', 'PRODUCTSIZE'), ('rózsamacit', 'PRODUCT')]","['rózsamacit', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Keress rá a plüss rózsamacira!
+",information,90.62%,"[('plüss', 'GENDERROLE')]","['plüss', 'rózsamaci', '\n']","[{'name': 'order', 'percentage': '4.88%'}, {'name': 'order_modification', 'percentage': '0.56%'}, {'name': 'complaint', 'percentage': '3.94%'}]"
+"Az örökrózsa kínálatot mutasd!
+",information,82.27%,"[('örökrózsa', 'PRODUCT')]","['örökrózsa', 'kínálat']","[{'name': 'order', 'percentage': '10.52%'}, {'name': 'order_modification', 'percentage': '1.18%'}, {'name': 'complaint', 'percentage': '6.02%'}]"
+"Szemügyre venném az örökrózsa kínálatot.
+",information,92.69%,"[('örökrózsa', 'PRODUCT')]","['örökrózsa', 'kínálat']","[{'name': 'order', 'percentage': '4.08%'}, {'name': 'order_modification', 'percentage': '0.26%'}, {'name': 'complaint', 'percentage': '2.97%'}]"
+"Milyen típusú örökrózsák vannak, mutasd meg!
+",complaint,77.50%,[],"['típusú', 'örökrózsa', '\n']","[{'name': 'information', 'percentage': '0.21%'}, {'name': 'order', 'percentage': '11.23%'}, {'name': 'order_modification', 'percentage': '11.06%'}]"
+"Keress rá az örökrózsákra!
+",information,78.42%,[],['örökrózsákra'],"[{'name': 'order', 'percentage': '11.11%'}, {'name': 'order_modification', 'percentage': '1.94%'}, {'name': 'complaint', 'percentage': '8.54%'}]"
+"Sokkal jobban néznek ki az örökrózsák díszdobozban, mutasd meg azzal és anélkül is!
+",complaint,54.88%,"[('azzal', 'GENDERROLE')]","['örökrózsák', 'díszdoboz', '\n']","[{'name': 'information', 'percentage': '0.01%'}, {'name': 'order', 'percentage': '4.36%'}, {'name': 'order_modification', 'percentage': '40.75%'}]"
+"Jó lenne, ha látnám, hogy milyen színű örökrózsák vannak, keress rá kérlek!
+",information,74.34%,"[('lenne', 'PRODUCT')]","['színű', 'örökrózsa']","[{'name': 'order', 'percentage': '9.20%'}, {'name': 'order_modification', 'percentage': '3.03%'}, {'name': 'complaint', 'percentage': '13.43%'}]"
+"Megnézném a képeket a rózsákról!
+",information,57.10%,"[('képeket', 'GENDERROLE'), ('rózsákról', 'GENDERROLE')]","['kép', 'rózsa']","[{'name': 'order', 'percentage': '29.92%'}, {'name': 'order_modification', 'percentage': '4.46%'}, {'name': 'complaint', 'percentage': '8.53%'}]"
+"Örökrózsákat keresek, látni szeretném!
+",information,94.15%,[],"['örökrózsa', '\n']","[{'name': 'order', 'percentage': '3.46%'}, {'name': 'order_modification', 'percentage': '0.38%'}, {'name': 'complaint', 'percentage': '2.02%'}]"
+"Mutasd meg az eddigi rendeléseim!
+",complaint,99.69%,[],"['eddigi', 'rendelés']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.31%'}]"
+"Szeretném megtekinteni az eddigi rendeléseim.
+",information,91.30%,"[('eddigi', 'PRODUCTCOLOR')]","['eddigi', 'rendelés']","[{'name': 'order', 'percentage': '4.80%'}, {'name': 'order_modification', 'percentage': '0.39%'}, {'name': 'complaint', 'percentage': '3.52%'}]"
+"Megnézném az eddigi rendeléseim.
+",information,91.31%,"[('eddigi', 'PRODUCTCOLOR')]","['eddigi', 'rendelés']","[{'name': 'order', 'percentage': '4.79%'}, {'name': 'order_modification', 'percentage': '0.38%'}, {'name': 'complaint', 'percentage': '3.51%'}]"
+"Miket rendeltem eddig a webshoptól?
+",information,100.00%,"[('webshoptól', 'PRODUCT')]","['mi', 'webshop']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen termékeket vettem már a webshopból?
+",information,87.21%,"[('webshopból', 'PRODUCT')]","['termék', 'webshop']","[{'name': 'order', 'percentage': '8.52%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '4.26%'}]"
+"Keresd meg a rendelési előzményeim!
+",complaint,53.63%,"[('rendelési', 'GENDERROLE')]","['rendelési', 'előzmény']","[{'name': 'information', 'percentage': '0.03%'}, {'name': 'order', 'percentage': '16.13%'}, {'name': 'order_modification', 'percentage': '30.21%'}]"
+"Milyen árban rendeltem korábban?
+",information,100.00%,[],['ár'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyiért rendeltem korábban?
+",information,100.00%,"[('Mennyiért', 'OCCASION')]",[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kíváncsi vagyok, milyen bögrék vannak.
+",information,100.00%,[],"['kíváncsi', 'bögre', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Látni szeretném a sötétzöld és a lila bögréket.
+",order,91.06%,"[('sötétzöld', 'GENDERROLE'), ('lila', 'GENDERROLE')]","['sötétzöld', 'lila', 'bögrék']","[{'name': 'information', 'percentage': '0.83%'}, {'name': 'order_modification', 'percentage': '1.76%'}, {'name': 'complaint', 'percentage': '6.35%'}]"
+"Milyen árban vannak a kis párnák?
+",information,100.00%,[],"['ár', 'kis', 'párna']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyibe kerülnek a feliratos táblák?
+",information,100.00%,"[('táblák', 'PRODUCT')]","['mennyi', 'feliratos', 'tábla', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Egyedi pólót készítettetek?
+",information,100.00%,[],"['egyedi', 'póló', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen szállítási lehetőségek vannak?
+",information,100.00%,[],"['szállítási', 'lehetőség', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Hogyan fízethetek a futárnál?
+",information,100.00%,"[('futárnál', 'GENDERROLE')]",['futár'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Melyik futár olcsóbb?
+",complaint,100.00%,[],"['futár', 'olcsó', '\n']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Van szállítási költség?
+",information,100.00%,[],"['szállítási', 'költség']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Ha csomagpontra kérem, mennyi a szállítás?
+",information,100.00%,[],"['csomagpont', 'szállítás']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mennyitől ingyenes a kiszállítás?
+",complaint,94.84%,[],"['mennyi', 'ingyenes', 'kiszállítás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '5.16%'}]"
+"Fizetnem kell pótdíjat?
+",order,75.18%,[],['pótdíj'],"[{'name': 'information', 'percentage': '2.17%'}, {'name': 'order_modification', 'percentage': '4.71%'}, {'name': 'complaint', 'percentage': '17.94%'}]"
+"Mennyi az utánvét pótdíja?
+",information,100.00%,[],"['utánvét', 'pótdíj', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mi az a pótdíj?
+",information,88.13%,"[('pótdíj', 'GENDERROLE')]","['pótdíj', '\n']","[{'name': 'order', 'percentage': '7.14%'}, {'name': 'order_modification', 'percentage': '0.97%'}, {'name': 'complaint', 'percentage': '3.76%'}]"
+"Miért kell nekem pótdíjat fízetni?
+",information,100.00%,[],['pótdíj'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Miért jó előre utalni?
+",information,100.00%,[],[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Miért utaljak előre?
+",information,100.00%,[],[],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kérlek, foglald le a cseresznyefa faliképet és átveszem személyesen!
+",order,100.00%,"[('átveszem', 'PRODUCTCOLOR')]","['cseresznyefa', 'falikép', 'személyes']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Miket tudtok ajánlani szülinapra?
+",information,100.00%,[],"['mi', 'szülinap']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Melyik àgyneműt rendelik a legtöbben?
+",information,100.00%,"[('legtöbben', 'GENDERROLE')]",['àgynemű'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen formájú kézszobor a legkeresettebb?
+",information,100.00%,"[('kézszobor', 'PRODUCT'), ('legkeresettebb', 'GENDERROLE')]","['formájú', 'kézszobor', 'keresett', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Melyik kézszobrot vásárolják a legtöbben?
+",information,100.00%,"[('kézszobrot', 'PRODUCT'), ('legtöbben', 'GENDERROLE')]",['kézszobor'],"[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Tedd kívánságlistára az arany rózsamacit!
+",order,89.05%,"[('arany', 'PRODUCTCOLOR'), ('rózsamacit', 'PRODUCT')]","['kívánságlista', 'arany', 'rózsamaci', '\n']","[{'name': 'information', 'percentage': '10.23%'}, {'name': 'order_modification', 'percentage': '0.08%'}, {'name': 'complaint', 'percentage': '0.64%'}]"
+"Tedd a a cseresznye illatú teamécsest kívánságlistára, hogy ne felejtsem el legközelebb!
+",order,99.71%,[],"['cseresznye', 'illatú', 'teamécsest', 'kívánságlista']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.25%'}, {'name': 'complaint', 'percentage': '0.04%'}]"
+"Rátok bízom, hogy milyen rózsamacit küldetek!
+",order,95.28%,"[('rózsamacit', 'PRODUCT')]","['rózsamacit', 'küldet']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '4.70%'}, {'name': 'complaint', 'percentage': '0.01%'}]"
+"Kérném a személyre szabott csomagomat a webshoptól!
+",order,100.00%,"[('webshoptól', 'GENDERROLE')]","['személy', 'szabott', 'csomag', 'webshop']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Katalógusban láttam egy rózsamacit díszcsomagolásban, örökrózsával és kártyával. Pont ugyanolyat szeretnék redelni!
+",order,100.00%,"[('rózsamacit', 'PRODUCT'), ('Pont', 'PRODUCTSIZE')]","['katalógus', 'rózsamacit', 'díszcsomagolás', 'örökrózsa', 'kártya']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen neves törölközőitek vannak?
+",information,100.00%,[],"['neves', 'törölközőit', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Milyen árú nálatok a neves törölköző?
+",information,100.00%,"[('neves', 'PRODUCTSIZE')]","['árú', 'nála', 'neves', 'törölköző', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Egyedi törölközőkészítésre van lehetőség?
+",information,100.00%,[],"['egyedi', 'törölközőkészítés', 'lehetőség']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Van olyan szolgáltatásotok, hogy egyedi felirat készítés?
+",information,100.00%,"[('szolgáltatásotok', 'PRODUCT')]","['szolgáltatásotok', 'egyedi', 'felirat', 'készítés', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Kapok ajándékot a rendelések után?
+",information,100.00%,[],"['ajándék', 'rendelés']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Megnézném az akciós térképeket!
+",information,86.62%,"[('akciós', 'PRODUCTCOLOR')]","['akciós', 'térkép']","[{'name': 'order', 'percentage': '7.21%'}, {'name': 'order_modification', 'percentage': '0.87%'}, {'name': 'complaint', 'percentage': '5.30%'}]"
+"Online pénztárcával vásárolhatok a webshopból?
+",information,100.00%,"[('webshopból', 'GENDERROLE')]","['online', 'pénztárca', 'webshop']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mutass akciós térképeket!
+",information,87.60%,[],"['akciós', 'térkép', '\n']","[{'name': 'order', 'percentage': '6.66%'}, {'name': 'order_modification', 'percentage': '0.80%'}, {'name': 'complaint', 'percentage': '4.94%'}]"
+"Melyik a legolcsóbb térkép?
+",complaint,99.76%,"[('legolcsóbb', 'GENDERROLE')]","['olcsó', 'térkép']","[{'name': 'information', 'percentage': '0.01%'}, {'name': 'order', 'percentage': '0.03%'}, {'name': 'order_modification', 'percentage': '0.21%'}]"
+"Csak rózsaszín és barna színű falicsempét keresek, látni szeretném!
+",information,94.17%,"[('rózsaszín', 'PRODUCTCOLOR')]","['rózsaszín', 'barna', 'színű', 'falicsempé', '\n']","[{'name': 'order', 'percentage': '3.45%'}, {'name': 'order_modification', 'percentage': '0.38%'}, {'name': 'complaint', 'percentage': '2.01%'}]"
+"A lególcsóbb műanyag pohárból rendelek 200 darabot!
+",information,99.13%,"[('lególcsóbb', 'GENDERROLE')]","['ólcsó', 'műanyag', 'pohár', 'darab']","[{'name': 'order', 'percentage': '0.77%'}, {'name': 'order_modification', 'percentage': '0.02%'}, {'name': 'complaint', 'percentage': '0.09%'}]"
+"Hány darab műanyag tányér után ingyenes a szállítás?
+",complaint,99.88%,"[('szállítás', 'GENDERROLE')]","['darab', 'műanyag', 'tányér', 'ingyenes', 'szállítás']","[{'name': 'information', 'percentage': '0.12%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}]"
+"Mennyi plüssmaci van raktáron?
+",information,98.56%,[],"['plüssmaci', 'raktár', '\n']","[{'name': 'order', 'percentage': '0.23%'}, {'name': 'order_modification', 'percentage': '0.05%'}, {'name': 'complaint', 'percentage': '1.16%'}]"
+"Mikor érkeznek plüssmacik?
+",information,100.00%,[],"['plüssmacik', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Mikor lesz újra készleten rózsamaci?
+",information,100.00%,"[('rózsamaci', 'PRODUCT')]","['készlet', '\n']","[{'name': 'order', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Módosítani szeretnék a rendelésemen.
+",order,100.00%,"[('rendelésemen', 'GENDERROLE')]",['rendelés'],"[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order_modification', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"
+"Szeretnék a tegnap rendelt kék rózsamaci helyett pirosat kérni inkább.
+",order,53.68%,"[('kék', 'PRODUCTCOLOR'), ('rózsamaci', 'PRODUCT')]","['rendelt', 'kék', 'rózsamaci', 'piros']","[{'name': 'information', 'percentage': '0.04%'}, {'name': 'order_modification', 'percentage': '30.13%'}, {'name': 'complaint', 'percentage': '16.16%'}]"
+"Az előbb adtam le egy rendelést villogó csillámpónira, kérhetnék inkább kettőt?
+",order_modification,90.60%,[],"['rendelés', 'villogó', 'csillámpóni']","[{'name': 'information', 'percentage': '2.02%'}, {'name': 'order', 'percentage': '2.38%'}, {'name': 'complaint', 'percentage': '5.00%'}]"
+"Délelőtt rendeltem egy bébi unikornist, tudnátok helyette inkább rothadó plüssdínót küldeni?
+",order_modification,95.25%,"[('plüssdínót', 'PRODUCT')]","['bébi', 'unikornis', 'tud', 'rothadó', 'plüssdínó']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '4.75%'}]"
+"Kicsinek tűnik a mini rózsadoboz, de már leadtam a rendelést, kérlek módosítsátok óriás rózsadobozra!
+",order_modification,93.21%,"[('rendelést', 'GENDERROLE')]","['kicsi', 'mini', 'rózsadoboz', 'rendelés', 'óriás', 'rózsadoboz', '\n']","[{'name': 'information', 'percentage': '0.01%'}, {'name': 'order', 'percentage': '0.25%'}, {'name': 'complaint', 'percentage': '6.53%'}]"
+"GLS csomagpontra kértem a kiszállítást, de nem fogok tudni elmenni érte, inkább házhozszállítást szeretnék kérni.",order_modification,100.00%,"[('kiszállítást', 'GENDERROLE'), ('elmenni', 'PRODUCTCOLOR')]","['csomagpont', 'kiszállítás', 'házhozszállítás']","[{'name': 'information', 'percentage': '0.00%'}, {'name': 'order', 'percentage': '0.00%'}, {'name': 'complaint', 'percentage': '0.00%'}]"

@@ -3,7 +3,8 @@
     "information",
     "order",
     "order_modification",
-    "complaint"
+    "complaint",
+    "search"
   ],
   "threshold":0.5,
   "positive_label":null

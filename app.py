@@ -1,25 +1,27 @@
 import json
 import io
 import csv
+import re
+import spreadsheet_handler
 
 import flask
 
 import textcat
 import ner
 import keyword_extractor
-from flask import request, render_template
+from flask import request, render_template, send_file
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 
 @app.route('/')
-def getmaintemplate():
+def get_main_template():
     return render_template('index.html')
 
 
 @app.route('/getcat', methods=['POST'])
-def getcat():
+def get_cat():
 
     params = keyword_extractor.get_hotwords(json.loads(request.data)['entityString'])
 
@@ -30,6 +32,27 @@ def getcat():
     result['param_value'] = ', '.join(params)
 
     return result
+
+
+@app.route('/create-ner-sentence', methods=['POST'])
+def create_ner_sentence():
+
+    ner_sentence = json.loads(request.data)['nerSentence']
+    entities = [tuple(x.split('-')) for x in json.loads(request.data)['entities'].split(', ')]
+
+    result = [ner_sentence]
+    entity_list = []
+
+    for tup in entities:
+        entity_details = []
+        for match in re.finditer(tup[0], ner_sentence):
+            entity_details.append(match.regs[0][0])
+            entity_details.append(match.regs[0][1])
+            entity_details.append(tup[1])
+        entity_list.append(tuple(entity_details))
+    result.append(entity_list)
+
+    spreadsheet_handler.append_row("ner_training", [[str(tuple(result))]])
 
 
 @app.route('/runallsentence', methods=['GET'])
@@ -57,7 +80,7 @@ def runallsentence():
 
             writer.writerow(data)
 
-    return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+    return send_file("result.csv", as_attachment=True, download_name="result.csv")
 
 
 app.run()

@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Szöveg osztályozó training mondat generátor</title>
 </head>
 <body>
-$END$
+
+    <h1 style="margin-top: 20px; margin-left: 10px;">Szöveg osztályozó mondat generálás</h1>
+    <input type="button" id="start-recognition" value="Start" style="margin: 10px;">
+    <label for="textcat_sentence">Mondat:</label>
+    <input type="text" size="50" id="textcat_sentence" style="margin: 10px;"></br>
+    <label for="textcat">Osztály (kategória):</label>
+    <input type="text" size="50" id="textcat" style="margin: 10px;"></br>
+    <input type="button" id="submit-textcat-sentence" value="Submit" style="margin: 10px;">
+
+    <div id="textcat_error_message" style="margin: 10px;"></div>
+
 </body>
 </html>
+<script>
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    var recognition = new webkitSpeechRecognition();
+    recognition.grammars = new webkitSpeechGrammarList();
+    recognizing = false;
+    recognition.continuous = true;
+    recognition.lang = 'hu-HU';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    document.getElementById("start-recognition").onclick = function(){
+        var that = this;
+        recognition.start();
+        recognition.onresult = function(event){
+            var last = event.results.length - 1;
+            var result = event.results[last][0].transcript;
+            console.log(result);
+            if(result.includes("mondat")){
+                document.getElementById("textcat_sentence").value = result.replace("mondat ", "");
+            } else if(result.includes("kategória")){
+                document.getElementById("textcat").value = result.replace("kategória ", "");
+            }
+            if(document.getElementById("textcat").value != "" && document.getElementById("textcat_sentence").value != ""){
+                recognition.stop();
+            }
+        }
+    }
+
+    document.getElementById("submit-textcat-sentence").onclick = function(){
+
+        var textcatSentence = document.getElementById("textcat_sentence").value;
+
+        var textcat = document.getElementById("textcat").value;
+
+        var data = JSON.stringify({
+          "textcatSentence": textcatSentence,
+          "textcat": textcat
+        });
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: data,
+            redirect: 'follow'
+        };
+
+        fetch("/create-textcat-sentence", requestOptions)
+        .then(response => {
+            if (response.status == 200){
+                document.getElementById("textcat_sentence").value = ""
+                document.getElementById("textcat").value = ""
+            } else if(response.status == 500){
+                document.getElementById("error_message").value = "Hiba történt a kérés feldolgozása során";
+            }
+        })
+        .then(result => console.log(result))
+    }
+</script>

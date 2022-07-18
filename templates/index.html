@@ -11,10 +11,50 @@
     <input type="button" id="submit-input" value="Submit" style="margin: 10px;">
 
     <div id="response" style="margin: 10px;"></div>
+
+    <h1 style="margin-top: 20px; margin-left: 10px;">NER betanító mondat generálás</h1>
+    <label for="ner_sentence">Mondat:</label>
+    <input type="text" size="50" id="ner_sentence" style="margin: 10px;"></br>
+    <label for="entities">Entitások, vesszővel elválasztva:</label>
+    <input type="text" size="50" id="entities" style="margin: 10px;"></br>
+    <input type="button" id="submit-ner-sentence" value="Submit" style="margin: 10px;">
+
+    <div id="ner_error_message" style="margin: 10px;"></div>
+
 </body>
 <script>
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
+
+    document.getElementById("submit-ner-sentence").onclick = function(){
+
+        var nerSentence = document.getElementById("ner_sentence").value;
+
+        var entities = document.getElementById("entities").value;
+
+        var data = JSON.stringify({
+          "nerSentence": nerSentence,
+          "entities": entities
+        });
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: data,
+            redirect: 'follow'
+        };
+
+        fetch("/create-ner-sentence", requestOptions)
+        .then(response => {
+            if (response.status == 200){
+                document.getElementById("ner_sentence").value = ""
+                document.getElementById("entities").value = ""
+            } else if(response.status == 500){
+                document.getElementById("error_message").value = "Hiba történt a kérés feldolgozása során";
+            }
+        })
+        .then(result => console.log(result))
+    }
 
     document.getElementById("submit-input").onclick = function(){
 
@@ -48,6 +88,5 @@
             })
         .catch(error => console.log('error', error));
     }
-
 </script>
 </html>

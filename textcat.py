@@ -50,6 +50,22 @@ def getcat(sentence):
                 other_intent_copy = other_intent.copy()
                 result['other_intent'].append(other_intent_copy)
         return result
+    elif doc.cats['search'] > .5:
+        result['intent']['intent_name'] = 'search'
+        result['intent']['intent_percentage'] = "{:.2%}".format((doc.cats['search']))
+        for cat in doc.cats:
+            if cat != 'search':
+                other_intent['name'] = cat
+                other_intent['percentage'] = "{:.2%}".format(doc.cats[cat])
+                other_intent_copy = other_intent.copy()
+                result['other_intent'].append(other_intent_copy)
+        return result
     else:
-        return "unknown intent"
+        result['intent']['intent_name'] = 'unknown intent'
+        result['intent']['intent_percentage'] = "{:.2%}".format(1)
+        other_intent['name'] = 'unknown intent'
+        other_intent['percentage'] = "{:.2%}".format(1)
+        other_intent_copy = other_intent.copy()
+        result['other_intent'].append(other_intent_copy)
+        return result
 
