@@ -51,6 +51,25 @@ def get_ner_sentences(type):
     return ner_sentences
 
 
+def get_all_sentences(type):
+    spreadsheet_range = get_range(type)
+    all_textcat_sentences = []
+
+    try:
+        service = build('sheets', 'v4', credentials=credentials)
+
+        sheet = service.spreadsheets()
+        result = sheet.values().get(spreadsheetId=SPREADSHEET_ID,
+                                    range=spreadsheet_range).execute()
+        values = result.get('values', [])
+        for row in values:
+            all_textcat_sentences.append(row[1])
+    except HttpError as err:
+        print(err)
+
+    return all_textcat_sentences
+
+
 def create_textcat_sentences(type):
     spreadsheet_range = get_range(type)
     file_name = ""

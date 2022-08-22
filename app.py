@@ -1,7 +1,7 @@
 import json
-import io
 import csv
 import re
+from flask_cors import CORS, cross_origin
 import spreadsheet_handler
 
 import flask
@@ -13,6 +13,8 @@ from flask import request, render_template, send_file
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/')
@@ -20,8 +22,9 @@ def get_main_template():
     return render_template('index.html')
 
 
-@app.route('/getcat', methods=['POST'])
-def get_cat():
+@app.route('/getintent', methods=['POST'])
+@cross_origin()
+def get_intent():
 
     params = keyword_extractor.get_hotwords(json.loads(request.data)['entityString'])
 
@@ -58,8 +61,7 @@ def create_ner_sentence():
 @app.route('/runallsentence', methods=['GET'])
 def runallsentence():
 
-    allsentences = io.open('allsentences.txt', mode="r", encoding="utf-8")
-    sentences = allsentences.readlines()
+    sentences = spreadsheet_handler.get_all_sentences("text_classifier_training")
 
     with open('result.csv', 'w', newline='', encoding='UTF8') as f:
         writer = csv.writer(f)
@@ -83,4 +85,20 @@ def runallsentence():
     return send_file("result.csv", as_attachment=True, download_name="result.csv")
 
 
+@app.route('/test', methods=['GET'])
+def test():
+    sentences = spreadsheet_handler.get_all_sentences("text_classifier_training")
+
+    params = keyword_extractor.get_hotwords(sentences[0])
+
+    paramNames = ner.getner(sentences[0])
+
+    data = [sentences[0], textcat.getcat(sentences[0])['intent']['intent_name'],
+            textcat.getcat(sentences[0])['intent']['intent_percentage'],
+            paramNames, params, textcat.getcat(sentences[0])['other_intent']]
+
+    return str(data)
+
+
 app.run()
+
