@@ -33,6 +33,8 @@ def get_intent():
     result['primary_intent'] = textcat.getcat(json.loads(request.data)['entityString'])
     result['param_name'] = ner.getner(json.loads(request.data)['entityString'])
     result['param_value'] = ', '.join(params)
+    raw_locations = ner.get_location(json.loads(request.data)['entityString'])
+    result['locations'] = str(raw_locations)
 
     return result
 

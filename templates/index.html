@@ -84,7 +84,8 @@
                 'Elsődleges szándék: ' + JSON.stringify(JSON.parse(result).primary_intent.intent.intent_name) + ', ' + JSON.stringify(JSON.parse(result).primary_intent.intent.intent_percentage) + '</br>' +
                 'Többi szándék : '+ '</br>' + data +
                 'Paraméter név: ' + JSON.parse(result).param_name + '</br>' +
-                'Paraméter érték: ' + JSON.parse(result).param_value + '</br>' + '</br>'
+                'Paraméter érték: ' + JSON.parse(result).param_value + '</br>' + '</br>' +
+                'Helyadatok: ' + JSON.parse(result).locations + '</br>' + '</br>'
             })
         .catch(error => console.log('error', error));
     }
