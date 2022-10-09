@@ -34,7 +34,30 @@ def get_intent():
     result['param_name'] = ner.getner(json.loads(request.data)['entityString'])
     result['param_value'] = ', '.join(params)
     raw_locations = ner.get_location(json.loads(request.data)['entityString'])
-    result['locations'] = str(raw_locations)
+
+    splitted_locations = []
+
+    for location in raw_locations:
+        splitted_locations += location.split()
+
+    for splitted_location in splitted_locations:
+        result['param_value'] = result['param_value'].replace(splitted_location.lower(), "")
+
+    result['locations'] = str(raw_locations) if len(raw_locations) > 0 else ""
+
+    raw_organisations = ner.get_organisation(json.loads(request.data)['entityString'])
+
+    splitted_organisations = []
+
+    for organisation in raw_organisations:
+        splitted_organisations += organisation.split()
+
+    for splitted_organisation in splitted_organisations:
+        result['param_value'] = result['param_value'].replace(splitted_organisation.lower(), "")
+
+    result['organisations'] = str(raw_organisations) if len(raw_organisations) > 0 else ""
+    result['time'] = keyword_extractor.get_time(json.loads(request.data)['entityString'])
+    result['radius'] = keyword_extractor.get_radius(json.loads(request.data)['entityString'])
 
     return result
 
