@@ -1,6 +1,7 @@
 import spacy
 
-nlp = spacy.load("hu_core_news_lg")
+nlp_hu = spacy.load("hu_core_news_lg")
+nlp_en = spacy.load("en_core_web_md")
 
 def getner(sentence):
     nlp_ner = spacy.load("ner_output/model-best")
@@ -13,20 +14,25 @@ def getner(sentence):
     return result
 
 
-def get_location(sentence):
-    doc = nlp(sentence)
+def get_location(sentence, lng):
+    if lng == 'hu':
+        doc = nlp_hu(sentence)
+    elif lng == 'en':
+        doc = nlp_en(sentence)
 
     result = []
-
     for ent in doc.ents:
-        if ent.label_ == "LOC":
+        if ent.label_ == "LOC" or ent.label_ == "GPE":
             result.append(ent.lemma_)
 
     return result
 
 
-def get_organisation(text):
-    doc = nlp(text)
+def get_organisation(text, lng):
+    if lng == 'hu':
+        doc = nlp_hu(text)
+    elif lng == 'en':
+        doc = nlp_en(text)
     result = []
 
     for ent in doc.ents:
